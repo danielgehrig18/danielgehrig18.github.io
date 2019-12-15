@@ -6,7 +6,7 @@ description: Daniel Gehrig's Website.
 keywords: Daniel, Gehrig, github, gh-pages, rpg
 baseurl:  # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://danielgehrig18.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
+#url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
@@ -28,16 +28,22 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: I work as a PhD student at the "Robotics and Perception Group" led by Prof. Davide Scaramuzza at the University of Zurich and ETH Zurich.
+  My research focuses on high-speed and high-dynamic range visual perception using Event Cameras and aims at bringing these sensors closer to the 
+  research community. To do so, I am employing deep-learning and model-based approaches to leverage the outstanding properties of event cameras with
+  data-driven techniques. I completed my masters in mechanical engineering at ETH Zurich and during my master thesis I worked on developing EKLT, 
+  asynchronous phototometric feature tracker using events and frames. Previously, I gained expertise in artificial intelligence when working at 
+  "F&P Personal Robotics" where I was in charge of enabling context-aware task planning for a robotic manipulator.
+  feature. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: danielgehrig18
+  # name: danielgehrig18
 
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
+  # id: UA-93473370-3
 
 ## google optimize
 go:
