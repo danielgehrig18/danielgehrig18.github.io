@@ -4,7 +4,7 @@
     detail: Robotics and Perception Group
     i18n: company_a
   desc:
-    detail: I am a PhD student with Prof. Davide Scaramuzza in the Robotics and Perception Group at University of Zurich and ETH Zurich.
+    detail: PhD student with Prof. Dr. Davide Scaramuzza in the Robotics and Perception Group at University of Zurich and ETH Zurich.
     i18n: company_a_desc
   date:
     detail: Aug. 2018
@@ -33,7 +33,7 @@
     detail: MSc in Mechanical Engineering, ETH Zurich
     i18n: company_b
   desc:
-    detail: I graduated from ETH Zurich with a MSc in Mechanical Engineering under the tuition of Prof. Roland Siegwart where I was awarded the Willi Studer Prize for the best Grade Point Average of 6.00 (out of 6.00) and the ETH medal for best Master Thesis.
+    detail: I graduated from ETH Zurich with a MSc in Mechanical Engineering under the tuition of Prof. Dr. Roland Siegwart where I was awarded the Willi Studer Prize for the best Grade Point Average of 6.00 (out of 6.00) and the ETH medal for best Master Thesis.
     i18n: company_b_desc
   date:
     detail: Feb. 2016 - Apr. 2018
