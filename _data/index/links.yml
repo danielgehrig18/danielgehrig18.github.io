@@ -1,9 +1,9 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- last_name: Gehrig
+  first_name: Daniel
+  desc: LinkedIn
+  website: https://www.linkedin.com/in/daniel-gehrig-942aa714b
+  email: daniel.gehrig18@gmail.com
 
 - last_name: Donate
   first_name: Jalpc
