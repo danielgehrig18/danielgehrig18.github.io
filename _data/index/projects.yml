@@ -6,26 +6,30 @@
   i18n: jalpc
   gh_user: jarrekk
   repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: ArXiv submission 2019.
+  img: /static/assets/img/landing/vid2e.png
+  desc: ArXiv Paper 2019.
 
 - name: "End-to-End Learning of Representations for Asynchronous Event-Based Data"
   url: http://rpg.ifi.uzh.ch/docs/ICCV19_Gehrig.pdf
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: Conference Paper at "Internation Conference on Computer Vision" (ICCV) 2019 in Seoul, South Korea.
+  gh_user: uzh-rpg
+  repo: rpg_event_representation_learning
+  img: /static/assets/img/landing/repr.png
+  desc: Conference Paper at "International Conference on Computer Vision" (ICCV) 2019 in Seoul, South Korea. Open source code is available.
 
 - name: "ESIM: an Open Event Camera Simulator"
   url: http://rpg.ifi.uzh.ch/docs/CORL18_Rebecq.pdf
   i18n: google
-  img: /static/assets/img/landing/google.png
-  desc: Conference Paper at "Conference on Robot Learning" (CoRL) 2018 in Zurich, Switzerland
+  gh_user: uzh-rpg
+  repo: rpg_esim
+  img: /static/assets/img/landing/esim.png
+  desc: Conference Paper at "Conference on Robot Learning" (CoRL) 2018 in Zurich, Switzerland. Open source code is available.
 
 - name: "EKLT: Asynchronous, Photometric Feature Tracking using Events and Frames"
   url: http://rpg.ifi.uzh.ch/docs/IJCV19_Gehrig.pdf
   i18n: google
-  img: /static/assets/img/landing/google.png
-  desc: Journal Paper at "International Journal of Computer Vision" (IJCV) 2019.
+  gh_user: uzh-rpg
+  repo: rpg_eklt
+  img: /static/assets/img/landing/eklt.jpg
+  desc: Journal Paper at "International Journal of Computer Vision" (IJCV) 2019. Open source code is available.
 
