@@ -19,7 +19,7 @@
     "my_skills": "My Skills"
   },
   "projects":{
-    "my_projects": "My Projects",
+    "my_projects": "Publications and Projects",
     "jalpc": "This project is my project. I use javescript to get repo's information all my repos have only one request.",
     "cpython": "This project is other's project. I use another request to get repo's information.",
     "familycode": "This is another project."
