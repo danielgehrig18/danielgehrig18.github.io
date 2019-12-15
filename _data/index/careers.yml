@@ -33,7 +33,7 @@
     detail: MSc in Mechanical Engineering, ETH Zurich
     i18n: company_b
   desc:
-    detail: I graduated from ETH Zurich with a MSc in Mechanical Engineering under the tuition of Prof. Dr. Roland Siegwart where I was awarded the Willi Studer Prize for the best Grade Point Average of 6.00 (out of 6.00) and the ETH medal for best Master Thesis.
+    detail: Graduation from ETH Zurich with a MSc in Mechanical Engineering under the tuition of Prof. Dr. Roland Siegwart where I was awarded the Willi Studer Prize for the best Grade Point Average of 6.00 (out of 6.00) and the ETH medal for best Master Thesis.
     i18n: company_b_desc
   date:
     detail: Feb. 2016 - Apr. 2018
@@ -44,27 +44,13 @@
   icon: fa-plus-square
 
 - name:
-    detail: Software Development at F&P Personal Robotics
+    detail: Software Developer at F&P Personal Robotics
     i18n: company_b
   desc:
-    detail: I worked part-time at F&P Personal Robotics as a software developer on artificial intelligence and context management for service robotics.
+    detail: Intership and part-time job at F&P Personal Robotics as a software developer on artificial intelligence and context management for service robotics.
     i18n: company_b_desc
   date:
-    detail: Okt. 2017 - Apr. 2018
-    i18n: company_b_date
-  job:
-    detail: Software Development
-    i18n: company_b_job
-  icon: fa-plus-square
-
-- name:
-    detail: Software Development at F&P Personal Robotics
-    i18n: company_b
-  desc:
-    detail: I did a five months internship at F&P Personal Robotics as a software developer and worked on artificial intelligence and context management as well as testing for service robotics.
-    i18n: company_b_desc
-  date:
-    detail: Aug. 2017 - Jan. 2018
+    detail: Aug. 2017 - Apr. 2018
     i18n: company_b_date
   job:
     detail: Software Development
@@ -75,7 +61,7 @@
     detail: BSc in Mechanical Engineering, ETH Zurich
     i18n: company_b
   desc:
-    detail: I graduated from ETH Zurich with a BSc in Mechanical Engineering.
+    detail: Graduation from ETH Zurich with a BSc in Mechanical Engineering.
     i18n: company_b_desc
   date:
     detail: Sep. 2012 - Mar. 2015
@@ -89,7 +75,7 @@
     detail: Teaching Assistant for Calculus and Linear Algebra
     i18n: company_b
   desc:
-    detail: I worked as a teaching assistant, directing exercise lessons for the D-MATH department at ETH Zurich, in Calculus and Linear Algebra.
+    detail: Teaching assistant, directing exercise lessons for the D-MATH department at ETH Zurich, in Calculus and Linear Algebra.
     i18n: company_b_desc
   date:
     detail: Sep. 2014 - Sep. 2015
