@@ -6,6 +6,7 @@
   i18n: jalpc
   img: /static/assets/img/landing/vid2e.png
   desc: ArXiv Paper 2019.
+  youtube: uX6XknBGg0w
 
 - name: "End-to-End Learning of Representations for Asynchronous Event-Based Data"
   url: http://rpg.ifi.uzh.ch/docs/ICCV19_Gehrig.pdf
