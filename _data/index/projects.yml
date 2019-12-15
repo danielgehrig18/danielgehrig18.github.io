@@ -4,8 +4,6 @@
 - name: "Video to Events: Bringing Modern Computer Vision Closer to Event Cameras"
   url: http://rpg.ifi.uzh.ch/docs/arXiv19_Gehrig_vid.pdf
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
   img: /static/assets/img/landing/vid2e.png
   desc: ArXiv Paper 2019.
 
