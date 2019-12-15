@@ -23,11 +23,11 @@ author:  # change following line to your infomation.
   cv:  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
+    - name: fa-microchip
+    - name: fa-code
   skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
+    - name: fa-code
+    - name: fa-microchip
   desc: I work as a PhD student at the "Robotics and Perception Group" led by Prof. Davide Scaramuzza at the University of Zurich and ETH Zurich. My research focuses on high-speed and high-dynamic range visual perception using Event Cameras and aims at bringing these sensors closer to the research community. To do so, I am employing deep-learning and model-based approaches to leverage the outstanding properties of event cameras with data-driven techniques. I completed my masters in mechanical engineering at ETH Zurich and during my master thesis I worked on developing EKLT, asynchronous phototometric feature tracker using events and frames, for which I received the ETH medal, awarded for the best Master Thesis. Previously, I gained expertise in artificial intelligence when working at "F&P Personal Robotics" where I was in charge of enabling context-aware task planning for a robotic manipulator. # Describe yourself.
 
 # comment
