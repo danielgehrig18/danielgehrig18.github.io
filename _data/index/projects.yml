@@ -1,11 +1,22 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: "Video to Events: Bringing Modern Computer Vision Closer to Event Cameras"
+- name: "Event-based Asynchronous Sparse Convolutional Networks,"
+  url: http://rpg.ifi.uzh.ch/docs/ECCV20_Messikommer.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/asyn.png
+  desc: Converence Paper at "European Conference of Computer Vision" (ECCV) 2020 in Glasgow, United Kingdom. Open source code is available.
+  gh_user: uzh-rpg
+  repo: rpg_asynet
+  youtube: g_I5k_QFQJA
+
+- name: "Video to Events: Recycling Video Datasets for Event Cameras"
   url: http://rpg.ifi.uzh.ch/docs/arXiv19_Gehrig_vid.pdf
   i18n: jalpc
   img: /static/assets/img/landing/vid2e.png
-  desc: ArXiv Paper 2019.
+  desc: Converence Paper at "Conference on Computer Vision and Pattern Recognition" (CVPR) 2020 in Seattle, USA. Open source code is available.
+  gh_user: uzh-rpg
+  repo: rpg_vid2e
   youtube: uX6XknBGg0w
 
 - name: "End-to-End Learning of Representations for Asynchronous Event-Based Data"
