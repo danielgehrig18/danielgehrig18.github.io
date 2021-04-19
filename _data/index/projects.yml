@@ -13,7 +13,7 @@
   url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
   i18n: jalpc
   img: /static/assets/img/landing/dsec.png
-  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code is available.and datasets are available.
+  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code and data are available.
   gh_user: uzh-rpg
   repo: DSEC
 
@@ -21,7 +21,7 @@
   url: http://rpg.ifi.uzh.ch/docs/3DV20_Hidalgo.pdf
   i18n: jalpc
   img: /static/assets/img/landing/depth.png
-  desc: Conference Paper at "International Conference on 3D Vision" (3DV) 2020 in Fukuoka, Japan. Open source code and the event-camera plugin to CARLA is available.
+  desc: Conference Paper at "International Conference on 3D Vision" (3DV) 2020 in Fukuoka, Japan. Open source code and data are available.
   gh_user: uzh-rpg
   repo: rpg_e2depth
   youtube: MJ6klYG1rQc
