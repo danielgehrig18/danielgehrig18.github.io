@@ -5,7 +5,7 @@
   url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
   i18n: jalpc
   img: /static/assets/img/landing/ramnet.png
-  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code and datasets are available.
+  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. 
   gh_user: uzh-rpg
   repo: rpg_ramnet
 
@@ -38,7 +38,7 @@
   url: http://rpg.ifi.uzh.ch/docs/arXiv19_Gehrig_vid.pdf
   i18n: jalpc
   img: /static/assets/img/landing/vid2e.png
-  desc: Conference Paper at "Conference on Computer Vision and Pattern Recognition" (CVPR) 2020 in Seattle, USA. Open source code is available.
+  desc: Conference Paper at "Conference on Computer Vision and Pattern Recognition" (CVPR) 2020 in Seattle, USA.
   gh_user: uzh-rpg
   repo: rpg_vid2e
   youtube: uX6XknBGg0w
