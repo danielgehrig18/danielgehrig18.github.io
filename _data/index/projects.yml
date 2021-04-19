@@ -1,11 +1,36 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: "Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction,"
+  url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/ramnet.png
+  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code and datasets are available.
+  gh_user: uzh-rpg
+  repo: rpg_ramnet
+
+- name: "DSEC: A Stereo Event Camera Dataset for Driving Scenarios,"
+  url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/dsec.png
+  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code is available.and datasets are available.
+  gh_user: uzh-rpg
+  repo: DSEC
+
+- name: "Learning Monocular Dense Depth from Events,"
+  url: http://rpg.ifi.uzh.ch/docs/3DV20_Hidalgo.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/depth.png
+  desc: Conference Paper at "International Conference on 3D Vision" (3DV) 2020 in Fukuoka, Japan. Open source code and the event-camera plugin to CARLA is available.
+  gh_user: uzh-rpg
+  repo: rpg_e2depth
+  youtube: MJ6klYG1rQc
+
 - name: "Event-based Asynchronous Sparse Convolutional Networks,"
   url: http://rpg.ifi.uzh.ch/docs/ECCV20_Messikommer.pdf
   i18n: jalpc
   img: /static/assets/img/landing/asyn.png
-  desc: Converence Paper at "European Conference of Computer Vision" (ECCV) 2020 in Glasgow, United Kingdom. Open source code is available.
+  desc: Conference Paper at "European Conference of Computer Vision" (ECCV) 2020 in Glasgow, United Kingdom. Open source code is available.
   gh_user: uzh-rpg
   repo: rpg_asynet
   youtube: g_I5k_QFQJA
@@ -14,10 +39,19 @@
   url: http://rpg.ifi.uzh.ch/docs/arXiv19_Gehrig_vid.pdf
   i18n: jalpc
   img: /static/assets/img/landing/vid2e.png
-  desc: Converence Paper at "Conference on Computer Vision and Pattern Recognition" (CVPR) 2020 in Seattle, USA. Open source code is available.
+  desc: Conference Paper at "Conference on Computer Vision and Pattern Recognition" (CVPR) 2020 in Seattle, USA. Open source code is available.
   gh_user: uzh-rpg
   repo: rpg_vid2e
   youtube: uX6XknBGg0w
+
+- name: "Fast Image Reconstruction with an Event Camera"
+  url: http://rpg.ifi.uzh.ch/docs/WACV20_Scheerlinck.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/fire.png
+  desc: Conference Paper at "Winter Conference on Applications of Computer Vision" (WACV) 2020. Open source code is available.
+  gh_user: cedric-scheerlinck
+  repo: rpg_e2vid
+  youtube: QaGYFtR2-X8
 
 - name: "End-to-End Learning of Representations for Asynchronous Event-Based Data"
   url: http://rpg.ifi.uzh.ch/docs/ICCV19_Gehrig.pdf
