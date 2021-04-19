@@ -10,7 +10,7 @@
   repo: rpg_ramnet
 
 - name: "DSEC: A Stereo Event Camera Dataset for Driving Scenarios,"
-  url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
+  url: http://rpg.ifi.uzh.ch/docs/RAL21_DSEC.pdf
   i18n: jalpc
   img: /static/assets/img/landing/dsec.png
   desc: Letter at "Robotics and Automation Letters" (RA-L) 2021.
