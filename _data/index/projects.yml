@@ -13,15 +13,14 @@
   url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
   i18n: jalpc
   img: /static/assets/img/landing/dsec.png
-  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021. Open source code and data are available.
-  gh_user: uzh-rpg
+  desc: Letter at "Robotics and Automation Letters" (RA-L) 2021.
   repo: DSEC
 
 - name: "Learning Monocular Dense Depth from Events,"
   url: http://rpg.ifi.uzh.ch/docs/3DV20_Hidalgo.pdf
   i18n: jalpc
   img: /static/assets/img/landing/depth.png
-  desc: Conference Paper at "International Conference on 3D Vision" (3DV) 2020 in Fukuoka, Japan. Open source code and data are available.
+  desc: Conference Paper at "International Conference on 3D Vision" (3DV) 2020 in Fukuoka, Japan
   gh_user: uzh-rpg
   repo: rpg_e2depth
   youtube: MJ6klYG1rQc
@@ -30,7 +29,7 @@
   url: http://rpg.ifi.uzh.ch/docs/ECCV20_Messikommer.pdf
   i18n: jalpc
   img: /static/assets/img/landing/asyn.png
-  desc: Conference Paper at "European Conference of Computer Vision" (ECCV) 2020 in Glasgow, United Kingdom. Open source code is available.
+  desc: Conference Paper at "European Conference of Computer Vision" (ECCV) 2020 in Glasgow, United Kingdom.
   gh_user: uzh-rpg
   repo: rpg_asynet
   youtube: g_I5k_QFQJA
@@ -48,7 +47,7 @@
   url: http://rpg.ifi.uzh.ch/docs/WACV20_Scheerlinck.pdf
   i18n: jalpc
   img: /static/assets/img/landing/fire.png
-  desc: Conference Paper at "Winter Conference on Applications of Computer Vision" (WACV) 2020. Open source code is available.
+  desc: Conference Paper at "Winter Conference on Applications of Computer Vision" (WACV) 2020. 
   gh_user: cedric-scheerlinck
   repo: rpg_e2vid
   youtube: QaGYFtR2-X8
@@ -59,7 +58,7 @@
   gh_user: uzh-rpg
   repo: rpg_event_representation_learning
   img: /static/assets/img/landing/repr.png
-  desc: Conference Paper at "International Conference on Computer Vision" (ICCV) 2019 in Seoul, South Korea. Open source code is available.
+  desc: Conference Paper at "International Conference on Computer Vision" (ICCV) 2019 in Seoul, South Korea. 
   youtube: bQtSx59GXRY
 
 - name: "ESIM: an Open Event Camera Simulator"
@@ -68,7 +67,7 @@
   gh_user: uzh-rpg
   repo: rpg_esim
   img: /static/assets/img/landing/esim.png
-  desc: Conference Paper at "Conference on Robot Learning" (CoRL) 2018 in Zurich, Switzerland. Open source code is available.
+  desc: Conference Paper at "Conference on Robot Learning" (CoRL) 2018 in Zurich, Switzerland.
   youtube: ytKOIX_2clo
 
 - name: "EKLT: Asynchronous, Photometric Feature Tracking using Events and Frames"
@@ -77,5 +76,5 @@
   gh_user: uzh-rpg
   repo: rpg_eklt
   img: /static/assets/img/landing/eklt.jpg
-  desc: Journal Paper at "International Journal of Computer Vision" (IJCV) 2019. Open source code is available.
+  desc: Journal Paper at "International Journal of Computer Vision" (IJCV) 2019. 
   youtube: ZyD1YPW1h4U
