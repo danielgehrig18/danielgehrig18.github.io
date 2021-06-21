@@ -22,6 +22,7 @@
   i18n: jalpc
   img: /static/assets/img/landing/dsec.png
   desc: Robotics and Automation Letters (RA-L) 2021.
+  gh_user: uzh-rpg
   repo: DSEC
 
 - name: "Learning Monocular Dense Depth from Events,"
