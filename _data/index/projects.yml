@@ -8,6 +8,7 @@
   desc: Conference on Computer Vision and Pattern Recognition (CVPR) 2021 in Nashville, USA.
   gh_user: uzh-rpg
   repo: rpg_timelens
+  youtube: dVLyia-ezvo
 
 - name: "Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction,"
   url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
@@ -16,6 +17,7 @@
   desc: Robotics and Automation Letters (RA-L) 2021. 
   gh_user: uzh-rpg
   repo: rpg_ramnet
+  youtube: 7Hbi-YFCuRY
 
 - name: "DSEC: A Stereo Event Camera Dataset for Driving Scenarios,"
   url: http://rpg.ifi.uzh.ch/docs/RAL21_DSEC.pdf
