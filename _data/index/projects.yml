@@ -1,6 +1,17 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: "E-RAFT: Dense Optical Flow from Event Cameras"
+  url: http://rpg.ifi.uzh.ch/docs/3DV21_Gehrig.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/Arxiv21_Flow_Gehrig.png
+  desc: International Conference on 3D Vision (3DV), 2021.
+  gh_user: uzh-rpg
+  repo: DSEC
+  youtube: dN8fl7-XfNw
+
+
 - name: "Time Lens: Event-based Video Frame Interpolation"
   url: http://rpg.ifi.uzh.ch/docs/CVPR21_Gehrig.pdf
   i18n: jalpc
@@ -9,6 +20,15 @@
   gh_user: uzh-rpg
   repo: rpg_timelens
   youtube: dVLyia-ezvo
+
+- name: "How to Calibrate Your Event Camera"
+  url: http://rpg.ifi.uzh.ch/docs/CVPRW21_Muglikar.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/CVPRW21_Muglikar.png
+  desc: Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) 2021 in Nashville, USA.
+  gh_user: uzh-rpg
+  repo: e2calib
+  youtube: RYW2sHcm5aI
 
 - name: "Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction,"
   url: http://rpg.ifi.uzh.ch/docs/RAL21_Gehrig.pdf
@@ -26,6 +46,7 @@
   desc: Robotics and Automation Letters (RA-L) 2021.
   gh_user: uzh-rpg
   repo: DSEC
+  youtube: uTa6-ME547Q
 
 - name: "Learning Monocular Dense Depth from Events,"
   url: http://rpg.ifi.uzh.ch/docs/3DV20_Hidalgo.pdf
