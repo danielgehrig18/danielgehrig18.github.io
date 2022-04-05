@@ -1,6 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: "AEGNN: Asynchronous Event-based Graph Neural Networks"
+  url: http://rpg.ifi.uzh.ch/docs/CVPR22_Schaefer.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/CVPR22_Schaefer.png
+  desc: Conference on Computer Vision and Pattern Recognition (CVPR) 2022 in New Orleans, USA
+  gh_user: uzh-rpg
+  repo: aegnn
+  youtube: opbFE6OsAeA
+
+- name: "Time Lens++: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion"
+  url: http://rpg.ifi.uzh.ch/docs/CVPR22_Tulyakov.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/CVPR22_Tulyakov.png
+  desc: Conference on Computer Vision and Pattern Recognition (CVPR) 2022 in New Orleans, USA
+  gh_user: uzh-rpg
+  repo: timelens-pp
+  youtube: AsRKQRWHbVs
 
 - name: "E-RAFT: Dense Optical Flow from Event Cameras"
   url: http://rpg.ifi.uzh.ch/docs/3DV21_Gehrig.pdf
@@ -10,7 +27,6 @@
   gh_user: uzh-rpg
   repo: DSEC
   youtube: dN8fl7-XfNw
-
 
 - name: "Time Lens: Event-based Video Frame Interpolation"
   url: http://rpg.ifi.uzh.ch/docs/CVPR21_Gehrig.pdf
