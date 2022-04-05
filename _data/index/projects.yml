@@ -19,6 +19,30 @@
   repo: timelens-pp
   youtube: AsRKQRWHbVs
 
+- name: "Are High-Resolution Event Cameras Really Needed?"
+  url: https://rpg.ifi.uzh.ch/docs/arxiv22_Gehrig.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/arxiv22_Gehrig.png
+  desc: arXiv, 2022
+  youtube: HV9_FhS-f88
+
+- name: "Bridging the Gap between Events and Frames through Unsupervised Domain Adaptation?"
+  url: https://rpg.ifi.uzh.ch/docs/Arxiv21_Messikommer.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/Arxiv21_Messikommer.png
+  desc: Robotics and Automation Letters (RA-L), 2022.
+  youtube: fZnBSqni6PY
+  gh_user: uzh-rpg
+  repo: rpg_ev-transfer
+
+- name: "Multi-Bracket High Dynamic Range Imaging with Event Cameras"
+  url: https://rpg.ifi.uzh.ch/docs/Arxiv22_MessikommerHDR.pdf
+  i18n: jalpc
+  img: /static/assets/img/landing/Arxiv22_MessikommerHDR.png
+  desc: arXiv, 2022
+  youtube: AsRKQRWHbVs
+
+
 - name: "E-RAFT: Dense Optical Flow from Event Cameras"
   url: http://rpg.ifi.uzh.ch/docs/3DV21_Gehrig.pdf
   i18n: jalpc
