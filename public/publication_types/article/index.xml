@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article | Daniel Gehrig</title>
+    <link>http://localhost:1313/publication_types/article/</link>
+      <atom:link href="http://localhost:1313/publication_types/article/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Article</title>
+      <link>http://localhost:1313/publication_types/article/</link>
+    </image>
+    
+    <item>
+      <title>End-to-End Learned Event- and Image-based Visual Odometry</title>
+      <link>http://localhost:1313/publication/pellerito23arxiv/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pellerito23arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pushing the Limits of Asynchronous Graph-based Object Detection with Event Cameras</title>
+      <link>http://localhost:1313/publication/gehrig22arxiv/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig22arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Are High-Resolution Event Cameras Really Needed?</title>
+      <link>http://localhost:1313/publication/gehrig22barxiv/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig22barxiv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

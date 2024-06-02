@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postdoc | Daniel Gehrig</title>
+    <link>http://localhost:1313/tags/postdoc/</link>
+      <atom:link href="http://localhost:1313/tags/postdoc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Postdoc</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Postdoc</title>
+      <link>http://localhost:1313/tags/postdoc/</link>
+    </image>
+    
+    <item>
+      <title>🎉 I started as a postdoctoral researcher at the GRASP Lab at UPenn.</title>
+      <link>http://localhost:1313/post/grasp/</link>
+      <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/grasp/</guid>
+      <description>&lt;p&gt;I joined the GRASP Lab to work on the intersection of computer vision, robotics and machine learning. I am looking forward to collaborations and what the future brings!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

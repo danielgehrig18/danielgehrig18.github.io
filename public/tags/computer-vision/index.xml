@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Daniel Gehrig</title>
+    <link>http://localhost:1313/tags/computer-vision/</link>
+      <atom:link href="http://localhost:1313/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Computer Vision</title>
+      <link>http://localhost:1313/tags/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception</title>
+      <link>http://localhost:1313/publication/aydin24cvprw/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/aydin24cvprw/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;The work by Asude Aydin that contributed to the paper &amp;ldquo;A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception&amp;rdquo; at a CVPR Workshop 2024 lead to a UZH Master Thesis Award.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An N-Point Linear Solver for Line and Motion Estimation with Event Cameras</title>
+      <link>http://localhost:1313/publication/gao24cvpr/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gao24cvpr/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This paper lead to an oral at CVPR 2024 in Seattle!&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Low Latency Automotive Vision with Event Cameras</title>
+      <link>http://localhost:1313/publication/gehrig24nature/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig24nature/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This work lead to me winning the UZH Annual Award, which is awarded to the best Ph.D. in the department of Informatics!&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>End-to-End Learned Event- and Image-based Visual Odometry</title>
+      <link>http://localhost:1313/publication/pellerito23arxiv/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/pellerito23arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecturer for &#34;Vision Algorithms for Mobile Robotics&#34;</title>
+      <link>http://localhost:1313/teaching/vamr/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/vamr/</guid>
+      <description>&lt;p&gt;I gave the deep learning lectures at the &amp;ldquo;Vision Algorithms for Mobile Robotics&amp;rdquo; taught by Prof. Davide Scaramuzza at the University of Zurich and ETH Zurich in 2019-2022.&lt;/p&gt;
+&lt;p&gt;Additionally, I acted as a TA for the course in 2019 and 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A 5-Point Minimal Solver for Event Camera Relative Motion Estimation</title>
+      <link>http://localhost:1313/publication/gao23iccv/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gao23iccv/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This paper lead to an oral at ICCV 2023 in Paris!&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Chaos Comes Order: Ordering Event Representations for Object Recognition and Detection</title>
+      <link>http://localhost:1313/publication/zubic23iccv/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zubic23iccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based Agile Object Catching with a Quadrupedal Robot</title>
+      <link>http://localhost:1313/publication/forrai23icra/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/forrai23icra/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Here we explore the advantages of using event cameras to catch high-speed objects at up 15 m/s with the quadrupedal robot ANYmal. Our paper &amp;ldquo;Event-based Agile Object Catching with a Quadrupedal Robot&amp;rdquo; was featured on IEEE Spectrum. Read the article 
+.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pushing the Limits of Asynchronous Graph-based Object Detection with Event Cameras</title>
+      <link>http://localhost:1313/publication/gehrig22arxiv/</link>
+      <pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig22arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Event Camera-based Odometry for Planetary Robots</title>
+      <link>http://localhost:1313/publication/mahlknecht22ral/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mahlknecht22ral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AEGNN: Asynchronous Event-based Graph Neural Networks</title>
+      <link>http://localhost:1313/publication/schaefer22cvpr/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/schaefer22cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESS: Learning Event-based Semantic Segmentation from Still Images</title>
+      <link>http://localhost:1313/publication/sun22eccv/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/sun22eccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Bracket High Dynamic Range Imaging with Event Cameras</title>
+      <link>http://localhost:1313/publication/messikommer22cvprw/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/messikommer22cvprw/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;p&gt;This paper lead to the following patent with Huawei RC Zurich!&lt;/p&gt;
+&lt;p&gt;Stamatios Georgoulis, Nico Messikommer, Stepan Tulyakov, Julius Erbach, Alfredo Bochic-
+chio, Daniel Gehrig, Yuanyou Li, and Davide Scaramuzza, HIGH DYNAMIC RANGE
+IMAGING DEVICE AND METHOD OF GENERATING A HIGH DYNAMIC RANGE
+IMAGE, WO/2023/083466, Published 19.05.2023&lt;/p&gt;
+&lt;/span&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Time Lens&#43;&#43;: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion</title>
+      <link>http://localhost:1313/publication/tulyakov22cvpr/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tulyakov22cvpr/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;p&gt;This work appeared in 
+, and lead to a patent with Huawei RC Zurich!&lt;/p&gt;
+&lt;p&gt;Stepan Tulyakov, Alfredo Bocicchio, Stamatios Georgoulis, Yuanyou Li, Daniel Gehrig,
+Mathias Gehrig, and Davide Scaramuzza, IMAGE PROCESSING APPARATUS AND
+METHOD FOR GENERATING INTERPOLATED FRAME, WO/2023/083467, Pub-
+lished 19.05.2023&lt;/p&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Are High-Resolution Event Cameras Really Needed?</title>
+      <link>http://localhost:1313/publication/gehrig22barxiv/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig22barxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging the Gap between Events and Frames through Unsupervised Domain Adaptation</title>
+      <link>http://localhost:1313/publication/messikommer22ral/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/messikommer22ral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E-RAFT: Dense Optical Flow from Event Cameras</title>
+      <link>http://localhost:1313/publication/gehrig213dv/</link>
+      <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig213dv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to Calibrate Your Event Camera</title>
+      <link>http://localhost:1313/publication/muglikar21cvprw/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/muglikar21cvprw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Lens: Event-based Video Frame Interpolation </title>
+      <link>http://localhost:1313/publication/tulyakov21cvpr/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tulyakov21cvpr/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;&lt;p&gt;This work appeared on 
+!
+and lead the the following patent with Huawei RC Zurich!&lt;/p&gt;
+&lt;p&gt;Stepan Tulyakov, Stamatios Georgoulis, Yuanyou Li, Daniel Gehrig, Julius Erbach, Math-
+ias Gehrig, and Davide Scaramuzza, DEVICE AND METHOD FOR VIDEO INTERPO-
+LATION, WO/2022/096158, Published 12.05.2022&lt;/p&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction</title>
+      <link>http://localhost:1313/publication/gehrig21rala/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig21rala/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DSEC: A Stereo Event Camera Dataset for Driving Scenarios</title>
+      <link>http://localhost:1313/publication/gehrig21ralb/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig21ralb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Monocular Dense Depth from Events</title>
+      <link>http://localhost:1313/publication/hidalgo203dv/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hidalgo203dv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event-based Asynchronous Sparse Convolutional Networks</title>
+      <link>http://localhost:1313/publication/messikommer20eccv/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/messikommer20eccv/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This work received a Best Presentation Award at the ONSVP workshop at ICRA 2021 in Xi&amp;rsquo;an.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Video to Events: Recycling Video Dataset for Event Cameras</title>
+      <link>http://localhost:1313/publication/gehrig20cvpr/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig20cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Image Reconstruction with an Event Camera</title>
+      <link>http://localhost:1313/publication/scheerlinck20wacv/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/scheerlinck20wacv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Learning of Representations for Asynchronous Event-Based Data</title>
+      <link>http://localhost:1313/publication/gehrig19iccv/</link>
+      <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig19iccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EKLT: Asynchronous, Photometric Feature Tracking using Events and Frames</title>
+      <link>http://localhost:1313/publication/gehrig19ijcv/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig19ijcv/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This paper received an oral at ECCV 2018 and was invited as a journal extension at IJCV!&lt;/span&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Asynchronous, Photometric Feature Tracking using Events and Frames</title>
+      <link>http://localhost:1313/publication/gehrig18eccv/</link>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig18eccv/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This paper lead to an oral at ECCV 2018 and was invited to a journal extension by IJCV.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotics | Daniel Gehrig</title>
+    <link>http://localhost:1313/tags/robotics/</link>
+      <atom:link href="http://localhost:1313/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robotics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Robotics</title>
+      <link>http://localhost:1313/tags/robotics/</link>
+    </image>
+    
+    <item>
+      <title>Event-based Agile Object Catching with a Quadrupedal Robot</title>
+      <link>http://localhost:1313/publication/forrai23icra/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/forrai23icra/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Here we explore the advantages of using event cameras to catch high-speed objects at up 15 m/s with the quadrupedal robot ANYmal. Our paper &amp;ldquo;Event-based Agile Object Catching with a Quadrupedal Robot&amp;rdquo; was featured on IEEE Spectrum. Read the article 
+.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Event Camera-based Odometry for Planetary Robots</title>
+      <link>http://localhost:1313/publication/mahlknecht22ral/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mahlknecht22ral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging the Gap between Events and Frames through Unsupervised Domain Adaptation</title>
+      <link>http://localhost:1313/publication/messikommer22ral/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/messikommer22ral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction</title>
+      <link>http://localhost:1313/publication/gehrig21rala/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig21rala/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DSEC: A Stereo Event Camera Dataset for Driving Scenarios</title>
+      <link>http://localhost:1313/publication/gehrig21ralb/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gehrig21ralb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESIM: an Open Event Camera Simulator</title>
+      <link>http://localhost:1313/publication/rebecq18corl/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rebecq18corl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

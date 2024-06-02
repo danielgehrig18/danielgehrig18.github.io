@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Daniel Gehrig</title>
+    <link>http://localhost:1313/event/</link>
+      <atom:link href="http://localhost:1313/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 Nov 2023 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://localhost:1313/event/</link>
+    </image>
+    
+    <item>
+      <title>Efficient Data-driven Perception with Event Cameras</title>
+      <link>http://localhost:1313/event/grasp_seminar/</link>
+      <pubDate>Mon, 13 Nov 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/grasp_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Data-driven Perception with Event Cameras</title>
+      <link>http://localhost:1313/event/phd_defense/</link>
+      <pubDate>Thu, 07 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/phd_defense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Event Processing with Geometric Deep Learning</title>
+      <link>http://localhost:1313/event/event_workshop/</link>
+      <pubDate>Sat, 01 Jul 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/event_workshop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

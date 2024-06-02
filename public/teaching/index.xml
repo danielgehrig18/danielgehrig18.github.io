@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Daniel Gehrig</title>
+    <link>http://localhost:1313/teaching/</link>
+      <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <title>Teaching</title>
+      <link>http://localhost:1313/teaching/</link>
+    </image>
+    
+    <item>
+      <title>Lecturer for &#34;Vision Algorithms for Mobile Robotics&#34;</title>
+      <link>http://localhost:1313/teaching/vamr/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teaching/vamr/</guid>
+      <description>&lt;p&gt;I gave the deep learning lectures at the &amp;ldquo;Vision Algorithms for Mobile Robotics&amp;rdquo; taught by Prof. Davide Scaramuzza at the University of Zurich and ETH Zurich in 2019-2022.&lt;/p&gt;
+&lt;p&gt;Additionally, I acted as a TA for the course in 2019 and 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
