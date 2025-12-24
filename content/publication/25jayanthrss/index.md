@@ -30,7 +30,7 @@ abstract: "Neural displacement priors (NDP) can reduce the drift in inertial odo
 summary: ''
 
 tags:
-- Computer Vision
+- Robotics
 featured: true
 
 # links:
