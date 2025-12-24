@@ -1,9 +1,9 @@
 ---
 title: Lecturer for "Vision Algorithms for Mobile Robotics" 
-summary: I gave the "Deep Learning" course at the "Vision Algorithms for Mobile Robotics" course at ETH Zurich/UZH Zurich. The course covers the basics of deep neural networks for geometric computer vision.
+summary: Between 2019-2022 I gave the "Deep Learning" course at the "Vision Algorithms for Mobile Robotics" course at ETH Zurich/UZH Zurich. The course covers the basics of deep neural networks for geometric computer vision.
 type: landing
 
-date: 2019-2022
+date: 2019
 type: docs
 math: false
 tags:
