@@ -1,7 +1,7 @@
 ---
-title: Data-driven Event-based Perception: From cameras to IMUs
+title: "Data-driven Event-based Perception: From cameras to IMUs"
 
-event: Visit and talk at Prof. Sebastian Scherer's lab
+event: "Visit and talk at Prof. Sebastian Scherer's lab"
 event_url: 
 
 location: Pittsburgh, Pennsylvania
