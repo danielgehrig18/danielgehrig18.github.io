@@ -1,6 +1,6 @@
 ---
 title: 🎉 I started as a postdoctoral researcher at the GRASP Lab at UPenn.
-summary: I just started as a postdoctoral researcher at the GRASP Lab at the University of Pennsylvania, under the supervision of Prof. Kostas Daniilidis, and Prof. Pratik Chaudhari!
+summary: I just started as a postdoctoral researcher at the GRASP Lab at the University of Pennsylvania, under the supervision of Prof. Kostas Daniilidis!
 date: 2024-05-13
 
 # Featured image
