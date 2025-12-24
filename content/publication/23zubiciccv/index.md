@@ -30,7 +30,7 @@ summary: ''
 
 tags:
 - Computer Vision
-featured: false
+featured: true
 
 # links:
 # - name: ""

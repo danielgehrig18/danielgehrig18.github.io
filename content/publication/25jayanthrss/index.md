@@ -31,7 +31,7 @@ summary: ''
 
 tags:
 - Computer Vision
-featured: false
+featured: true
 
 # links:
 # - name: ""
@@ -66,3 +66,7 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+{{% callout note %}}
+This work extended event-based sampling to IMU-based navigation opening the door to new event-based sensing paradigms!
+{{% /callout %}}
+
