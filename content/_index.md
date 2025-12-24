@@ -37,7 +37,8 @@ sections:
       text: |-
         I am a postdoctoral researcher at the GRASP Lab under the supervision of Prof. Kostas Daniilidis working on the intersection of computer vision, robotics and machine learning with and without event cameras. 
 
-        My main research focus lies in understanding the best way to process, represent and extract useful information from video data . 
+        My research focuses on event-based sensing, and recently extended from vision-based (i.e., event cameras) to IMUs as part of my recent work on Lie Events for IMU-based navigation, and event-based computation in the embedding space via asynchronous neural networks. I plan to extend this framework to Predictive Event Tokenization (PET), generalizing event-based sensing to arbitrary sensors, learnable embedding spaces, and robotic systems. With PET, I aim to bring the benefits of asynchronicity and sparsity to these new domains.
+
         Please reach out to collaborate!
     design:
       columns: '1'

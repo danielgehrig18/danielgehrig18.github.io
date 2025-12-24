@@ -73,7 +73,7 @@ work:
     date_start: 2024-05-13
     date_end: ''
     summary: |2-
-      Research on computer vision and robotics with and without event cameras, under the supervision of Prof. Kostas Daniilidis, and Prof. Pratik Chaudhari.
+      Research on computer vision and robotics with and without event cameras, under the supervision of Prof. Kostas Daniilidis.
   - position: Software Developer at F&P Robotics
     company_name: F&P Robotics
     company_url: ''
