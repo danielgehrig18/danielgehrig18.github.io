@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am a postdoctoral researcher at the GRASP Lab under the supervision of Prof. Kostas Daniilidis, and Prof. Pratik Chauhari, working on the insection of computer vision, robotics and machine learning with and without event cameras. 
+        I am a postdoctoral researcher at the GRASP Lab under the supervision of Prof. Kostas Daniilidis working on the intersection of computer vision, robotics and machine learning with and without event cameras. 
 
         My main research focus lies in understanding the best way to process, represent and extract useful information from video data . 
         Please reach out to collaborate!
