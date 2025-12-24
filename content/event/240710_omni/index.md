@@ -1,10 +1,10 @@
 ---
-title: Efficient Event Processing with Geometric Deep Learning
+title: Efficient, Data-driven Perception with Event Cameras
 
-event: CVPR 2023 Workshop on Event-based Vision
-event_url: https://tub-rip.github.io/eventvision2023/
+event: Omnivision and talk on invitation by Bo Mu
+event_url: https://www.ovt.com/
 
-location: CVPR 2023, Vancouver, Canada
+location: Santa Clara, California
 #address:
 #  street: 450 Serra Mall
 #  city: Stanford
@@ -12,12 +12,12 @@ location: CVPR 2023, Vancouver, Canada
 #  postcode: '94305'
 #  country: United States
 
-summary: A talk discussing deep learning techniques for efficient event processing at the CVPR 2023 Workshop on Event-based Vision.
+summary: A talk discussing deep learning techniques for efficient event processing.
 abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-07-01T13:00:00Z'
+date: '2024-07-10T13:00:00Z'
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
@@ -30,7 +30,7 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   ##caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -43,8 +43,8 @@ image:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'https://tub-rip.github.io/eventvision2023/slides/2023CVPRW_Daniel_Gehrig.pdf'
-url_video: 'https://www.youtube.com/watch?v=V6uGnuznIg4&ab_channel=RPGWorkshops'
+url_slides: ''
+url_video: ''
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

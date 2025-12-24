@@ -1,5 +1,5 @@
 ---
-title: Efficient, Data-driven Perception with Event Cameras
+title: Adaptive and Efficient Perception with Event Cameras
 
 event: Scene Understanding for Autonomous Drone Delivery Workshop at GCPR 2023
 event_url: https://edellano.github.io/suadd_workshop/
