@@ -12,7 +12,7 @@ location: Schloss Dagstuhl, Germany
 #  postcode: '94305'
 #  country: United States
 
-summary: A talk discussing deep learning techniques for efficient event processing at the CVPR 2023 Workshop on Event-based Vision.
+summary: A talk discussing deep learning techniques for efficient event processing..
 abstract: ''
 
 # Talk start and end times.

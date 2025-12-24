@@ -1,7 +1,7 @@
 ---
 title: At the intersection of Machine Learning and Event-based Vision
 
-event: Prophesee visit and talk on invitation by Prof. Cristoph Posch
+event: Prophesee visit and talk on invitation by Prof. Christoph Posch
 event_url: https://www.prophesee.ai/
 
 location: Paris
