@@ -2,78 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Daniel Gehrig</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:59833/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:59833/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:59833/media/icon_hu_fb642fd6f4783088.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>http://localhost:59833/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>Low Latency Automotive Vision with Event Cameras</title>
-      <link>http://localhost:1313/publication/gehrig24nature/</link>
+      <link>http://localhost:59833/publication/24gehrignature/</link>
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig24nature/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This work lead to me winning the UZH Annual Award, which is awarded to the best Ph.D. in the department of Informatics!&lt;/span&gt;
+      <guid>http://localhost:59833/publication/24gehrignature/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;This work lead to me winning the UZH Annual Award, which is awarded to the best Ph.D. in the department of Informatics!&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Exploring Event Camera-based Odometry for Planetary Robots</title>
-      <link>http://localhost:1313/publication/mahlknecht22ral/</link>
+      <link>http://localhost:59833/publication/22mahlknechtral/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mahlknecht22ral/</guid>
+      <guid>http://localhost:59833/publication/22mahlknechtral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bridging the Gap between Events and Frames through Unsupervised Domain Adaptation</title>
-      <link>http://localhost:1313/publication/messikommer22ral/</link>
+      <link>http://localhost:59833/publication/22messikommerral/</link>
       <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/messikommer22ral/</guid>
+      <guid>http://localhost:59833/publication/22messikommerral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction</title>
-      <link>http://localhost:1313/publication/gehrig21rala/</link>
+      <link>http://localhost:59833/publication/21gehrigrala/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig21rala/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/span&gt;
+      <guid>http://localhost:59833/publication/21gehrigrala/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>DSEC: A Stereo Event Camera Dataset for Driving Scenarios</title>
-      <link>http://localhost:1313/publication/gehrig21ralb/</link>
+      <link>http://localhost:59833/publication/21gehrigralb/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig21ralb/</guid>
+      <guid>http://localhost:59833/publication/21gehrigralb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EKLT: Asynchronous, Photometric Feature Tracking using Events and Frames</title>
-      <link>http://localhost:1313/publication/gehrig19ijcv/</link>
+      <link>http://localhost:59833/publication/19gehrigijcv/</link>
       <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig19ijcv/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;This paper received an oral at ECCV 2018 and was invited as a journal extension at IJCV!&lt;/span&gt;
+      <guid>http://localhost:59833/publication/19gehrigijcv/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;This paper received an oral at ECCV 2018 and was invited as a journal extension at IJCV!&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     

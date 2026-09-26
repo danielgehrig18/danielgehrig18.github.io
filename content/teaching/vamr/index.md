@@ -4,7 +4,6 @@ summary: Between 2019-2022 I gave the "Deep Learning" course at the "Vision Algo
 type: landing
 
 date: 2019
-type: docs
 math: false
 tags:
   - Computer Vision

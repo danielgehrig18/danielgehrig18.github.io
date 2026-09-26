@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: June 2, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: September 26, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59833&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+  <meta name="generator" content="Hugo Blox Builder 0.10.0" />
 
   
   
@@ -18,6 +18,8 @@
 
 
 
+
+  
 
 
 
@@ -44,7 +46,7 @@
   <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/" />
+  <link rel="alternate" hreflang="en-us" href="http://localhost:59833/publication/" />
 
   
   
@@ -56,64 +58,31 @@
 
   
   
+  
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
-  
 
   
   
   
-
   
-
-  <script>
-     
-    window.hbb = {
-       defaultTheme: document.documentElement.dataset.wcThemeDefault,
-       setDarkTheme: () => {
-        document.documentElement.classList.add("dark");
-        document.documentElement.style.colorScheme = "dark";
-      },
-       setLightTheme: () => {
-        document.documentElement.classList.remove("dark");
-        document.documentElement.style.colorScheme = "light";
-      }
-    }
-
-    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
-
-    if ("wc-color-theme" in localStorage) {
-      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-    } else {
-      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      if (window.hbb.defaultTheme === "system") {
-        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      }
-    }
-  </script>
-
-  <script>
+  
+  
+  
     
-    document.addEventListener('DOMContentLoaded', function () {
-      
-      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
-      checkboxes.forEach(e => {
-        e.parentElement.parentElement.classList.add('task-list');
-      });
+      <link rel="stylesheet" href="/css/_entry.css">
+    
+  
 
-      
-      const liNodes = document.querySelectorAll('.task-list li');
-      liNodes.forEach(nodes => {
-        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
-        if (textNodes.length > 0) {
-          const span = document.createElement('label');
-          textNodes[0].after(span);  
-          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
-          span.appendChild(textNodes[0]);
-        }
-      });
-    });
-  </script>
+
+  
+
+  
+  
+  
+
+  
+
+  <script src="/js/hb-head.min.js"></script>
 
   
   
@@ -160,10 +129,10 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_44a20d7fda16a770.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_d164670708f5f6b3.png" />
 
-  <link rel="canonical" href="http://localhost:1313/publication/" />
+  <link rel="canonical" href="http://localhost:59833/publication/" />
 
   
   
@@ -189,17 +158,20 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Daniel Gehrig" />
-  <meta property="og:url" content="http://localhost:1313/publication/" />
+  <meta property="og:url" content="http://localhost:59833/publication/" />
   <meta property="og:title" content="Publications | Daniel Gehrig" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:59833/media/icon_hu_fb642fd6f4783088.png" />
+    <meta property="twitter:image" content="http://localhost:59833/media/icon_hu_fb642fd6f4783088.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2024-06-17T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2026-09-14T00:00:00&#43;00:00" />
     
   
 
   
+
+
+
 
 
 
@@ -230,321 +202,403 @@
   
   
 
+
+
+
   
   
+
   
   
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+    
+    
+  
+
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
     
   
   
   
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
   
   
   
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
   
   
   
+
+  
+  
+
+  
+    
+    
+    
+      
+      
+        
+        
+      
+    
+    
+    
+  
+
+  
+  
+
   
   
   
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
   
   
   
+
   
   
+
+  
+    
+    
+    
+      
+      
+        
+        
+      
+    
+    
+    
+  
+
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
   
@@ -555,79 +609,6 @@
   
   
 
-
-
-
-
-
-
-<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
-
-
-<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
-
-<style>
-  html.dark {
-    --pagefind-ui-primary: #eeeeee;
-    --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #152028;
-    --pagefind-ui-tag: #152028;
-  }
-</style>
-
-<script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({ element: "#search", showSubResults: true });
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
-
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
-
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
-
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
-
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
-
-      });
-    }
-  });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
   <script
     defer
     src="/js/hugo-blox-en.min.js"
@@ -644,13 +625,40 @@
 
 
 
-  
-    
-      
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-      
-    
+  <script>console.log('✓ Alpine.js loading on demand');</script>
+  
+  
+  <script src="/dist/lib/alpinejs/cdn.min.e041f1b639d1e6b2fc2736d8d7638a409afcd444a6ec90446f8f4e44fa36f406.js" integrity="sha256-4EHxtjnR5rL8JzbY12OKQJr81ESm7JBEb49ORPo29AY=" defer></script>
+
+
+
+
+<script defer src="/js/hb-search.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -665,11 +673,9 @@
       
       
         
-        
-        
           <header id="site-header" class="header">
-  <nav class="navbar px-3 flex justify-left">
-    <div class="order-0 h-100">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
       
       <a class="navbar-brand" href="/" title="Daniel Gehrig">
         Daniel Gehrig
@@ -697,7 +703,7 @@
     
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
       ">
       
       
@@ -808,9 +814,9 @@
       
       
       <button
-        aria-label="search"
-        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        aria-label="toggle search"
+        class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white cursor-pointer"
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -822,12 +828,12 @@
         <button class="theme-toggle mt-1" accesskey="t" title="appearance">
           <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class="dark:hidden">
+               stroke-linejoin="round" class="block dark:hidden">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
           <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+               stroke-linejoin="round" class="hidden dark:block">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -852,8 +858,488 @@
 </header>
 
 
-<div id="search" class="hidden p-3"></div>
+<div
+  x-data="searchModal()"
+  x-show="$store.search.open"
+  @keydown.escape.window="$store.search.open = false"
+  @keydown.cmd.k.window.prevent="$store.search.open = !$store.search.open"
+  @keydown.ctrl.k.window.prevent="$store.search.open = !$store.search.open"
+  x-cloak
+  class="fixed inset-0 z-[100] bg-black/50 backdrop-blur-sm"
+  style="display: none;"
+>
+  
+  <div class="absolute inset-0" @click="$store.search.open = false"></div>
+  
+  
+  <div 
+    class="relative mx-auto mt-[10vh] max-w-3xl"
+    x-show="$store.search.open"
+    x-transition:enter="transition ease-out duration-200"
+    x-transition:enter-start="opacity-0 translate-y-4 scale-95"
+    x-transition:enter-end="opacity-100 translate-y-0 scale-100"
+    x-transition:leave="transition ease-in duration-150"
+    x-transition:leave-start="opacity-100 translate-y-0 scale-100"
+    x-transition:leave-end="opacity-0 translate-y-4 scale-95"
+  >
+    <div class="mx-4 overflow-hidden rounded-2xl bg-white dark:bg-gray-900 shadow-2xl ring-1 ring-gray-900/10 dark:ring-white/10">
+      
+      
+      <div class="border-b border-gray-200 dark:border-gray-800">
+        <div class="flex items-center gap-3 px-4 py-3">
+          
+          
+          <svg class="h-5 w-5 flex-shrink-0 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          
+          
+          <input
+            x-ref="searchInput"
+            x-model="query"
+            @input="loading = query.trim() !== ''"
+            @input.debounce.300ms="search()"
+            type="text"
+            placeholder="Search for answers..."
+            class="flex-1 bg-transparent text-lg outline-none text-gray-900 dark:text-gray-100 placeholder-gray-400"
+            autocomplete="off"
+            autofocus
+          />
+          
+          
+          <div x-show="loading" class="flex-shrink-0">
+            <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </div>
+          
+          
+          <kbd class="hidden sm:block flex-shrink-0 rounded bg-gray-100 px-2 py-1 text-xs font-semibold text-gray-600 dark:bg-gray-800 dark:text-gray-400">ESC</kbd>
+          
+          
+    <button
+            @click="$store.search.open = false"
+            class="flex-shrink-0 rounded-lg p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300 cursor-pointer"
+    >
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
 
+        
+        <div x-show="query && availableFilters.length > 0" x-transition class="border-t border-gray-100 dark:border-gray-800 px-4 py-2">
+          <div class="flex flex-wrap gap-2">
+            <button
+              @click="activeFilter = null; search()"
+              :class="activeFilter === null ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+              class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+            >
+              All Results
+            </button>
+            <template x-for="filter in availableFilters" :key="filter.filterKey">
+              <button
+                @click="activeFilter = filter.filterKey; search()"
+                :class="activeFilter === filter.filterKey ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+                class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+                x-text="filter.label + ' (' + filter.count + ')'"
+              ></button>
+            </template>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="max-h-[60vh] overflow-y-auto">
+        
+        
+        <div x-show="!query && results.length === 0" class="p-6">
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+        
+        
+        <div x-show="query && results.length > 0" class="divide-y divide-gray-200 dark:divide-gray-800">
+          <template x-for="(result, index) in results" :key="result.id">
+            <a
+              :href="result.url"
+              @mouseenter="selectedIndex = index"
+              @click="$store.search.open = false"
+              :class="selectedIndex === index ? 'bg-primary-50 dark:bg-primary-900/20 border-l-2 border-primary-600' : ''"
+              class="block px-6 py-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group search-result"
+            >
+              
+              <div class="flex items-center gap-2 mb-2 flex-wrap">
+                
+                <span
+                  x-show="result.filters && result.filters.type"
+                  :class="{
+                    'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300': result.filters.type && result.filters.type[0] === 'questions',
+                    'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300': result.filters.type && result.filters.type[0] === 'faq',
+                    'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300': result.filters.type && result.filters.type[0] === 'docs'
+                  }"
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium"
+                  x-text="result.filters.type ? (typeLabels[result.filters.type[0]] || result.filters.type[0]) : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.category" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                  x-text="result.filters.category ? result.filters.category[0] : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.difficulty" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300"
+                  x-text="result.filters.difficulty ? result.filters.difficulty[0] : ''"
+                ></span>
+              </div>
+              
+              
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-2" x-html="result.meta.title || 'Untitled'"></h3>
+              
+              
+              <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2" x-html="result.excerpt"></p>
+            </a>
+          </template>
+        </div>
+        
+        
+        <div x-show="query && loading" class="px-6 py-16 text-center">
+          <div class="inline-flex items-center gap-3">
+            <svg class="animate-spin h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <div class="text-left">
+              <p class="text-lg font-medium text-gray-900 dark:text-white">Searching...</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400" x-text="'Finding results for &quot;' + query + '&quot;'"></p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div x-show="query && results.length === 0 && !loading && hasSearched" class="px-6 py-12 text-center">
+          <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">No results found</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400" x-text="'No results for &quot;' + query + '&quot;'"></p>
+          <button
+            @click="query = ''; $refs.searchInput.focus()"
+            class="mt-4 text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium"
+          >
+            Clear search
+          </button>
+        </div>
+      </div>
+      
+      
+      <div class="border-t border-gray-200 dark:border-gray-800 px-4 py-3 bg-gray-50 dark:bg-gray-900/50">
+        <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↑↓</kbd>
+              Navigate
+            </span>
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↵</kbd>
+              Select
+            </span>
+            <span x-show="availableFilters.length > 0" class="flex items-center gap-1">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+              </svg>
+              <span x-text="availableFilters.length + ' filters'"></span>
+            </span>
+          </div>
+          <a href="https://hugoblox.com" target="_blank" rel="noopener" class="flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            Powered by Hugo Blox
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  function searchModal() {
+    return {
+      query: '',
+      results: [],
+      loading: false,
+      hasSearched: false,  
+      selectedIndex: -1,
+      activeFilter: null,
+      availableFilters: [],
+      trendingSearches: "[\"Search term 1\",\"Search term 2\"]",
+      pagefind: null,
+      
+      
+      typeLabels: {
+        'questions': "\"Questions\"",
+        'faq': "\"FAQ\"",
+        'docs': "\"Documentation\""
+      },
+      
+      async init() {
+        
+        try {
+          this.pagefind = await import('/pagefind/pagefind.js');
+          await this.pagefind.init();
+          console.log('✓ Pagefind initialized');
+          
+          
+          await this.loadFilters();
+        } catch (error) {
+          console.error('Failed to initialize Pagefind:', error);
+        }
+        
+        
+        this.$watch('$store.search.open', (open) => {
+          if (open) {
+            this.$nextTick(() => this.$refs.searchInput?.focus());
+            document.body.style.overflow = 'hidden';
+          } else {
+            document.body.style.overflow = '';
+            this.query = '';
+            this.results = [];
+            this.selectedIndex = -1;
+            this.hasSearched = false;  
+          }
+        });
+        
+        
+        window.addEventListener('keydown', (e) => {
+          if (!this.$store.search.open || this.results.length === 0) return;
+          
+          if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex < this.results.length - 1 ? this.selectedIndex + 1 : 0;
+            this.scrollToSelected();
+          } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex > 0 ? this.selectedIndex - 1 : this.results.length - 1;
+            this.scrollToSelected();
+          } else if (e.key === 'Enter' && this.selectedIndex >= 0) {
+            e.preventDefault();
+            const selected = this.results[this.selectedIndex];
+            if (selected) {
+              window.location.href = selected.url;
+              this.$store.search.open = false;
+            }
+          }
+        });
+      },
+      
+      scrollToSelected() {
+        this.$nextTick(() => {
+          const selectedEl = document.querySelector('.search-result:nth-child(' + (this.selectedIndex + 1) + ')');
+          if (selectedEl) {
+            selectedEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          }
+        });
+      },
+      
+      async search() {
+        if (!this.query.trim()) {
+          this.results = [];
+          this.hasSearched = false;
+          return;
+        }
+        
+        this.loading = true;
+        this.hasSearched = false;  
+        
+        try {
+          const options = {};
+          
+          
+          if (this.activeFilter) {
+            const [filterCategory, filterValue] = this.activeFilter.split(':');
+            options.filters = { [filterCategory]: filterValue };
+          }
+          
+          const search = await this.pagefind.search(this.query, options);
+          console.log('Search results:', search);
+          console.log('Search filters:', search.filters);
+          
+          
+          this.results = await Promise.all(
+            search.results.slice(0, 10).map(async (result) => {
+              const data = await result.data();
+              console.log('Result data:', data);
+              return {
+                id: data.url,
+                url: data.url,
+                meta: data.meta,
+                excerpt: data.excerpt,
+                filters: data.filters || {}
+              };
+            })
+          );
+          
+          
+          const filterCounts = { type: {}, category: {}, difficulty: {} };
+          
+          this.results.forEach(result => {
+            if (result.filters) {
+              
+              if (result.filters.type) {
+                result.filters.type.forEach(val => {
+                  filterCounts.type[val] = (filterCounts.type[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.category) {
+                result.filters.category.forEach(val => {
+                  filterCounts.category[val] = (filterCounts.category[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.difficulty) {
+                result.filters.difficulty.forEach(val => {
+                  filterCounts.difficulty[val] = (filterCounts.difficulty[val] || 0) + 1;
+                });
+              }
+            }
+          });
+          
+          console.log('Extracted filter counts from results:', filterCounts);
+          
+          
+          const filters = [];
+          
+          
+          Object.entries(filterCounts.type).forEach(([value, count]) => {
+            filters.push({
+              category: 'type',
+              value,
+              label: this.typeLabels[value] || value.charAt(0).toUpperCase() + value.slice(1),
+              count,
+              filterKey: `type:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.category).forEach(([value, count]) => {
+            filters.push({
+              category: 'category',
+              value,
+              label: value,
+              count,
+              filterKey: `category:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.difficulty).forEach(([value, count]) => {
+            filters.push({
+              category: 'difficulty',
+              value,
+              label: value,
+              count,
+              filterKey: `difficulty:${value}`
+            });
+          });
+          
+          this.availableFilters = filters;
+          console.log('Final availableFilters array:', this.availableFilters);
+          
+          
+          if (this.results.length > 0) {
+            this.selectedIndex = 0;
+          }
+        } catch (error) {
+          console.error('Search error:', error);
+          this.results = [];
+        } finally {
+          this.loading = false;
+          this.hasSearched = true;  
+        }
+      },
+      
+      async loadFilters() {
+        
+        try {
+          const search = await this.pagefind.search('');
+          console.log('Available Pagefind filters:', search.filters);
+          
+          const filters = [];
+          
+          
+          if (search.filters && search.filters.type) {
+            Object.entries(search.filters.type).forEach(([value, count]) => {
+              filters.push({
+                category: 'type',
+                value,
+                label: value.charAt(0).toUpperCase() + value.slice(1),
+                count,
+                filterKey: `type:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.category) {
+            Object.entries(search.filters.category).forEach(([value, count]) => {
+              filters.push({
+                category: 'category',
+                value,
+                label: value,
+                count,
+                filterKey: `category:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.difficulty) {
+            Object.entries(search.filters.difficulty).forEach(([value, count]) => {
+              filters.push({
+                category: 'difficulty',
+                value,
+                label: value,
+                count,
+                filterKey: `difficulty:${value}`
+              });
+            });
+          }
+          
+          this.availableFilters = filters;
+          console.log('Processed filters:', this.availableFilters);
+        } catch (error) {
+          console.error('Failed to load filters:', error);
+        }
+      }
+    };
+  }
+  
+  
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('search', {
+      open: false
+    });
+  });
+</script>
+
+<style>
+  [x-cloak] { display: none !important; }
+</style>
 
         
       
@@ -871,6 +1357,16 @@
 
 
 
+
+
+
+
+
+  
+    
+    <script>console.log('Author notes found in list - Alpine.js enabled');</script>
+    
+
 <div class="flex flex-col items-center">
 
   
@@ -880,6 +1376,112 @@
 
   
   
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Adrian Kneip</span>, <span >
+      Martin Lefebvre</span>, <span >
+      Daniel Gehrig</span>, <span >
+      Victoria Catalán Pastor</span>, <span >
+      Davide Scaramuzza</span>, <span >
+      Marian Verhelst</span>, <span >
+      Charlotte Frenkel</span>
+  </span>
+  (2026).
+  <a href="/publication/26kneipesserc/" class="underline">A 25-μs/inf Event-driven Graph Neural Network Processor with Spatiotemporal Caching and Spline Convolution for Ultra-low-latency AI at the Edge</a>.
+  <em>IEEE European Solid-State Electronics Research Conference (ESSERC)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/26kneipesserc/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/pdf/2609.15241" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
   
 
 
@@ -892,20 +1494,1391 @@
   <span class="article-metadata li-cite-author">
     
 
+
   <span >
-      Ling Gao*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Roberto Pellerito</span>, <span >
+      Daniel Gehrig</span>, <span >
+      Shintaro Shiba</span>, <span >
+      Davide Scaramuzza</span>
+  </span>
+  (2026).
+  <a href="/publication/26pelleritoarxiv/" class="underline">Neural Events: Discrete Asynchronous Autoencoders for Event-Based Vision</a>.
+  <em>arXiv</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/26pelleritoarxiv/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/pdf/2606.19835" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Wenjing Margaret Mao</span>, <span >
+      Jefferson Ng</span>, <span >
+      Luyang Hu</span>, <span >
+      Daniel Gehrig</span>, <span >
+      Antonio Loquercio</span>
+  </span>
+  (2026).
+  <a href="/publication/26maoiros/" class="underline">RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild</a>.
+  <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/26maoiros/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/Jirl-upenn/RoSHI-MoCap" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/pdf/2604.07331" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://roshi-mocap.github.io/" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        Project
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Royina Karegoudra Ayanth,</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Yinshuang Xu</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Evangelos Chatzipantazis</span>, <span >
+      Kostas Daniilidis</span>, <span >
+      Daniel Gehrig</span>
+  </span>
+  (2025).
+  <a href="/publication/25jayanthrss/" class="underline">Neural Inertial Odometry from Lie Events</a>.
+  <em>Robotics: Science and Systems (RSS)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/25jayanthrss/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/RoyinaJayanth/NIO_Lie_Events" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.roboticsproceedings.org/rss21/p143.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.roboticsproceedings.org/rss21/p143.html" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        Project
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Friedhelm Hamann</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Daniel Gehrig</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Filbert Febryanto</span>, <span >
+      Kostas Daniilidis</span>, <span >
+      Guillermo Gallego</span>
+  </span>
+  (2025).
+  <a href="/publication/25hamanncvpr/" class="underline">ETAP: Event-based Tracking of Any Point</a>.
+  <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/25hamanncvpr/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/tub-rip/ETAP" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://drive.google.com/drive/folders/1Mprj-vOiTP5IgXE9iuu4-4bazcZUswpp" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Hamann_ETAP_Event-based_Tracking_of_Any_Point_CVPR_2025_paper.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/tub-rip/ETAP/blob/main/docs/etap_cvpr25_poster.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>
+        Poster
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.youtube.com/watch?v=LaeA9WJ7ptc&amp;feature=youtu.be" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
+        Video
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Royina Karegoudra Jayanth*</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Yinshuang Xu*</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Ziyun Wang</span>, <span >
+      Evangelos Chatzipantazis</span>, <span >
+      Kostas Daniilidis</span>, <span >
+      Daniel Gehrig</span>
+  </span>
+  (2025).
+  <a href="/publication/25jayanthiclr/" class="underline">EqNIO: Subequivariant Neural Inertial Odometry</a>.
+  <em>International Conference on Learning Representations (ICLR)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/25jayanthiclr/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/RoyinaJayanth/EqNIO" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://openreview.net/pdf?id=C8jXEugWkq" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://iclr.cc/media/PosterPDFs/ICLR%202025/30531.png?t=1744207579.5006564" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>
+        Poster
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://iclr.cc/virtual/2025/poster/30531" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        Project
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://iclr.cc/media/iclr-2025/Slides/30531.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"/></svg>
+        Slides
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://iclr.cc/virtual/2025/poster/30531" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
+        Video
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Hang Su</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Yunlong Feng</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Daniel Gehrig</span>, <span >
+      Panfeng Jiang</span>, <span >
+      Ling Gao</span>, <span >
+      Xavier Lagorce</span>, <span >
+      Laurent Kneip</span>
+  </span>
+  (2025).
+  <a href="/publication/25suiccv/" class="underline">A Linear N-Point Solver for Structure and Motion from Asynchronous Tracks</a>.
+  <em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/25suiccv/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/suhang99/AsyncTrack-Motion-Solver" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Su_A_Linear_N-Point_Solver_for_Structure_and_Motion_from_Asynchronous_ICCV_2025_paper.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/222.png" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>
+        Poster
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.youtube.com/watch?v=c3IQgIaVTFQ" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
+        Video
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+  <span >
+      Ling Gao*</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Daniel Gehrig*</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
       Hang Su</span>, <span >
       Davide Scaramuzza</span>, <span >
       Laurent Kneip</span>
   </span>
   (2024).
-  <a href="/publication/gao24cvpr/" class="underline">An N-Point Linear Solver for Line and Motion Estimation with Event Cameras</a>.
+  <a href="/publication/24gaocvpr/" class="underline">An N-Point Linear Solver for Line and Motion Estimation with Event Cameras</a>.
   <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>.
   
 
   
-  <div class="flex space-x-3">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -915,40 +2888,93 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/24gaocvpr/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2404.00842" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/gao24cvpr/cite.bib" target="_blank" data-filename="/publication/gao24cvpr/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://mgaoling.github.io/eventail/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/pdf/2404.00842" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
   
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://mgaoling.github.io/eventail/" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+        Project
+      </a>
+    
+  
 
 
   </div>
@@ -971,19 +2997,78 @@
   <span class="article-metadata li-cite-author">
     
 
+
   <span >
-      Asude Aydin</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Mathias Gehrig</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Asude Aydin</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Mathias Gehrig</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
       Daniel Gehrig</span>, <span >
       Davide Scaramuzza</span>
   </span>
   (2024).
-  <a href="/publication/aydin24cvprw/" class="underline">A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception</a>.
+  <a href="/publication/24aydincvprw/" class="underline">A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception</a>.
   <em>IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</em>.
   
 
   
-  <div class="flex space-x-3">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -993,45 +3078,93 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/24aydincvprw/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/CVPRW24_Aydin.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/aydin24cvprw/cite.bib" target="_blank" data-filename="/publication/aydin24cvprw/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/uzh-rpg/hybrid_ann_snn" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/uzh-rpg/hybrid_ann_snn" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-
-
-
-
 
   
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-
-
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://rpg.ifi.uzh.ch/docs/CVPRW24_Aydin.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
 
 
   </div>
@@ -1054,17 +3187,76 @@
   <span class="article-metadata li-cite-author">
     
 
+
   <span >
-      Daniel Gehrig</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Davide Scaramuzza</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      Daniel Gehrig</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>, <span >
+      Davide Scaramuzza</span><span class="relative inline-block ml-1" x-data="{ tooltip: false }">
+          <button
+            @mouseenter="tooltip = true"
+            @mouseleave="tooltip = false"
+            @click="tooltip = !tooltip"
+            class="author-notes text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-200 transition-colors cursor-help"
+            data-tooltip="Equal contribution"
+            aria-label="Equal contribution"
+            type="button"
+          >
+            <svg class="inline-block w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+          <div
+            x-show="tooltip"
+            x-transition:enter="transition ease-out duration-200"
+            x-transition:enter-start="opacity-0 transform scale-95"
+            x-transition:enter-end="opacity-100 transform scale-100"
+            x-transition:leave="transition ease-in duration-150"
+            x-transition:leave-start="opacity-100 transform scale-100"
+            x-transition:leave-end="opacity-0 transform scale-95"
+            @click.away="tooltip = false"
+            class="absolute z-50 bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 text-sm text-white bg-gray-900 dark:bg-gray-700 rounded-lg shadow-lg whitespace-nowrap"
+            x-cloak
+          >
+            Equal contribution
+            <div class="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900 dark:border-t-gray-700"></div>
+          </div>
+        </span>
   </span>
   (2024).
-  <a href="/publication/gehrig24nature/" class="underline">Low Latency Automotive Vision with Event Cameras</a>.
+  <a href="/publication/24gehrignature/" class="underline">Low Latency Automotive Vision with Event Cameras</a>.
   Nature.
   
 
   
-  <div class="flex space-x-3">
+  <div class="flex flex-wrap space-x-3">
     
 
 
@@ -1074,697 +3266,149 @@
 
 
 
-  
-    
-  
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://www.nature.com/articles/s41586-024-07409-w" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/gehrig24nature/cite.bib" target="_blank" data-filename="/publication/gehrig24nature/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/uzh-rpg/dagr" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://dsec.ifi.uzh.ch/dsec-detection/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
-
-
-
-
-
-
-  
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://youtu.be/dwzGhMQCc4Y" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
-  Video
-</a>
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Roberto Pellerito</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Marco Cannici</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig</span>, <span >
-      Joris Belhadj</span>, <span >
-      Olivier Dubois-Matra</span>, <span >
-      Massimo Casasco</span>, <span >
-      Davide Scaramuzza</span>
-  </span>
-  (2024).
-  <a href="/publication/pellerito23arxiv/" class="underline">End-to-End Learned Event- and Image-based Visual Odometry</a>.
-  <em>arXiv</em>.
-  
-
-  
-  <div class="flex space-x-3">
-    
-
-
-
-
-
-
+ 
 
 
   
     
-  
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/Arxiv23_Pellerito.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/pellerito23arxiv/cite.bib" target="_blank" data-filename="/publication/pellerito23arxiv/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+    
+    
+    
+      
+        
+      
     
 
-  <span >
-      Nikola Zubic*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Mathias Gehrig</span>, <span >
-      Davide Scaramuzza</span>
-  </span>
-  (2023).
-  <a href="/publication/zubic23iccv/" class="underline">From Chaos Comes Order: Ordering Event Representations for Object Recognition and Detection</a>.
-  <em>Int. Conf. Comput. Vis. (ICCV)</em>.
-  
-
-  
-  <div class="flex space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/24gehrignature/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/ICCV2023_Zubic.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/zubic23iccv/cite.bib" target="_blank" data-filename="/publication/zubic23iccv/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/uzh-rpg/event_representation_study" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+    
+    
+    
+      
+      
     
 
-  <span >
-      Ling Gao</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Su Hao</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig</span>, <span >
-      Marco Cannici</span>, <span >
-      Davide Scaramuzza</span>, <span >
-      Laurent Kneip</span>
-  </span>
-  (2023).
-  <a href="/publication/gao23iccv/" class="underline">A 5-Point Minimal Solver for Event Camera Relative Motion Estimation</a>.
-  <em>Int. Conf. Comput. Vis. (ICCV)</em>.
-  
-
-  
-  <div class="flex space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/uzh-rpg/dagr" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://mgaoling.github.io/eventail/files/paper.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/gao23iccv/cite.bib" target="_blank" data-filename="/publication/gao23iccv/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://mgaoling.github.io/eventail/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-
-
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://mgaoling.github.io/eventail/files/poster.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/></svg>
-  Poster
-</a>
-
-
-  
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://www.youtube.com/watch?v=hyfGGzZQZh4&amp;ab_channel=MobilePerceptionLab" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
-  Video
-</a>
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+    
+      
+      
     
 
-  <span >
-      Benedek Forrai*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Takahiro Miki*</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig*</span>, <span >
-      Marco Hutter</span>, <span >
-      Davide Scaramuzza</span>
-  </span>
-  (2023).
-  <a href="/publication/forrai23icra/" class="underline">Event-based Agile Object Catching with a Quadrupedal Robot</a>.
-  <em>IEEE Int. Conf. Robot. Autom. (ICRA)</em>.
-  
-
-  
-  <div class="flex space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://dsec.ifi.uzh.ch/dsec-detection/" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/ICRA23_Forrai.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/forrai23icra/cite.bib" target="_blank" data-filename="/publication/forrai23icra/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/uzh-rpg/event-based_object_catching_anymal/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-
-
-
-
-
-  
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://youtu.be/FpsVB8EO54M" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
-  Video
-</a>
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+    
+    
+      
+      
     
 
-  <span >
-      Daniel Gehrig</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Davide Scaramuzza</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
-  </span>
-  (2022).
-  <a href="/publication/gehrig22arxiv/" class="underline">Pushing the Limits of Asynchronous Graph-based Object Detection with Event Cameras</a>.
-  IEEE Robot. Autom. Lett. (RA-L).
-  
-
-  
-  <div class="flex space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.nature.com/articles/s41586-024-07409-w" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/arXiv22_Gehrig.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/gehrig22arxiv/cite.bib" target="_blank" data-filename="/publication/gehrig22arxiv/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Florian Mahlknecht</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Jeremy Nash</span>, <span >
-      Friedrich M. Rockenbauer</span>, <span >
-      Benjamin Morrell</span>, <span >
-      Jeff Delaune</span>, <span >
-      Davide Scaramuzza</span>
-  </span>
-  (2022).
-  <a href="/publication/mahlknecht22ral/" class="underline">Exploring Event Camera-based Odometry for Planetary Robots</a>.
-  IEEE Robot. Autom. Lett. (RA-L).
-  
-
-  
-  <div class="flex space-x-3">
-    
-
-
-
-
-
-
-
-
   
     
-  
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/RAL22_Mahlknecht.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/mahlknecht22ral/cite.bib" target="_blank" data-filename="/publication/mahlknecht22ral/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://uzh-rpg.github.io/eklt-vio/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://uzh-rpg.github.io/eklt-vio/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://uzh-rpg.github.io/eklt-vio/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-  
-
-
-  
-  
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://youtu.be/KahAhSxC9_8" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
-  Video
-</a>
-
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+      
+      
     
 
-  <span >
-      Stepan Tulyakov</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Alfredo Bochicchio</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Daniel Gehrig</span>, <span >
-      Stamatios Georgoulis</span>, <span >
-      Yuanyou Li</span>, <span >
-      Davide Scaramuzza</span>
-  </span>
-  (2022).
-  <a href="/publication/tulyakov22cvpr/" class="underline">Time Lens&#43;&#43;: Event-based Frame Interpolation with Parametric Non-linear Flow and Multi-scale Fusion</a>.
-  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>.
-  
-
-  
-  <div class="flex space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://youtu.be/dwzGhMQCc4Y" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
+        Video
+      </a>
     
   
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/docs/CVPR22_Tulyakov.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/tulyakov22cvpr/cite.bib" target="_blank" data-filename="/publication/tulyakov22cvpr/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/uzh-rpg/timelens-pp/" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://rpg.ifi.uzh.ch/TimeLens.html" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-  
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://youtu.be/bWJz_p8Y5Hc" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/></svg>
-  Video
-</a>
-
-
-
 
 
   </div>
@@ -1808,12 +3452,12 @@
 
 
 
-
-
-
-
   
-  
+
+
+
+
+
   
   
   
@@ -1847,7 +3491,7 @@
 
   
   <p class="powered-by text-center">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2026 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1868,21 +3512,32 @@
 
 
 
-  <p class="powered-by text-center">
+  
     
     
+      
+      
+        
+        
+      
     
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
 
-</footer>
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_na" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox — Open Source</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugoblox.com/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_na" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p></footer>
 
     </div>
 
@@ -1890,6 +3545,11 @@
     
 
 
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
 
 
 
@@ -1898,6 +3558,310 @@
 
 
 
+  
 
+
+
+
+
+    
+    <script>
+    window.__HBX_LOGS__ = {"currentPage":{"buildId":"1790432615","file":"publication/_index.md","kind":"section","layout":"","path":"/publication/","section":"publication","title":"Publications","type":"publication"},"deps":[{"path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","vendor":false,"version":""},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify","time":"2025-12-01 03:15:47 +0000 UTC","vendor":false,"version":"v1.2.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/starters/academic-cv","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","time":"2025-11-08 00:16:06 +0000 UTC","vendor":false,"version":"v0.10.0"},{"owner_path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics","time":"2025-08-20 00:03:08 +0000 UTC","vendor":false,"version":"v0.2.0"}],"entries":[{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/25jayanthrss/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/24aydincvprw/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/24gaocvpr/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/24gehrignature/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"","level":"info","message":"✅  Using sections from front matter for page /projects/ (found 1 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1790432615},{"buildId":"1790432615","id":"","level":"info","message":"✅  Using sections from front matter for page /experience/ (found 4 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/23gaoiccv/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/23forraiicra/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"","level":"info","message":"✅  Using sections from front matter for page / (found 7 sections)","page":"/","source":{"name":"hbx/sections","type":"partial"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/22messikommercvprw/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/22tulyakovcvpr/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/21tulyakovcvpr/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/21gehrigrala/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/20messikommereccv/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/19gehrigijcv/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615},{"buildId":"1790432615","id":"callout-deprecated","level":"warn","message":"The `callout` shortcode is deprecated in publication/18gehrigeccv/index.md. Use standard Markdown alert syntax instead, such as `\u003e [!NOTE]`.","page":"/","source":{"docs":"https://docs.hugoblox.com/reference/markdown/#callouts","name":"callout","type":"shortcode"},"timestamp":1790432615}],"generatedAt":"2026-09-26T14:23:35Z","hugo":{"goVersion":"go1.27.1","version":"0.166.0"},"modules":{"bloxTailwind":{"path":"github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind","version":"v0.10.0"}},"version":1};
+  </script>
+    <script>
+    (function(){
+      try {
+        const PLACEMENT = "\"bottom-left\"";
+        const OPACITY = "1";
+
+        const root = document.createElement('div');
+        root.id = 'hbx-dev-hud-root';
+        root.style.all = 'initial';
+        root.style.position = 'fixed';
+        root.style.zIndex = '2147483647';
+        root.style.pointerEvents = 'none';
+        root.style.bottom = '16px';
+        if (PLACEMENT === 'bottom-right') root.style.right = '16px';
+        else if (PLACEMENT === 'bottom-center') { root.style.left = '50%'; root.style.transform = 'translateX(-50%)'; }
+        else root.style.left = '16px';
+
+        const shadow = root.attachShadow({ mode: 'open' });
+        const style = document.createElement('style');
+        style.textContent = `
+          :host { all: initial; }
+          .btn { pointer-events: auto; position:relative; display:inline-flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:9999px; background:#111418; color:#e6eaf0; border:1px solid #2a2f38; box-shadow: 0 10px 20px rgba(0,0,0,.25); cursor:pointer; }
+          .btn:hover { filter: brightness(1.1); }
+          .badge { position:absolute; top:-4px; right:-4px; min-width:18px; height:18px; padding:0 4px; border-radius:9999px; background:#ef4444; color:white; font: 600 11px/18px system-ui, sans-serif; text-align:center; }
+          .panel { pointer-events:auto; position:fixed; inset:auto auto 72px 16px; width:min(92vw, 1200px); max-height:min(80vh, 800px); background:#0d1117; color:#e6eaf0; border:1px solid #21262d; border-radius:12px; box-shadow: 0 20px 40px rgba(0,0,0,.4); overflow:hidden; display:none; }
+          .panel.open { display:flex; flex-direction:column; }
+          .panel-header { display:flex; align-items:center; gap:12px; padding:12px 16px; border-bottom:1px solid #21262d; background:#161b22; }
+          .panel-header h2 { margin:0; font: 700 16px system-ui, sans-serif; letter-spacing:-0.01em; color:#f0f6fc; }
+          .panel-header .close-btn { margin-left:auto; width:32px; height:32px; border:none; background:#21262d; color:#8b949e; border-radius:6px; cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; }
+          .panel-header .close-btn:hover { background:#30363d; color:#f0f6fc; }
+          .page-info { padding:16px; background:#0d1117; border-bottom:1px solid #21262d; }
+          .page-info h3 { margin:0 0 12px 0; font: 600 14px system-ui, sans-serif; color:#f0f6fc; display:flex; align-items:center; gap:8px; }
+          .page-info h3::before { content:'🔍'; font-size:16px; }
+          .page-meta { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; }
+          .meta-item { display:flex; flex-direction:column; gap:4px; }
+          .meta-label { font: 500 11px system-ui, sans-serif; color:#8b949e; text-transform:uppercase; letter-spacing:0.5px; }
+          .meta-value { font: 600 13px "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", monospace; color:#79c0ff; background:#161b22; padding:6px 8px; border-radius:6px; border:1px solid #21262d; word-break:break-all; }
+          .meta-value.type { color:#a5f3fc; }
+          .meta-value.layout { color:#fbbf24; }
+          .tabs { display:flex; background:#161b22; border-bottom:1px solid #21262d; }
+          .tab { padding:12px 16px; font: 500 14px system-ui, sans-serif; color:#8b949e; cursor:pointer; border-bottom:2px solid transparent; }
+          .tab:hover { color:#f0f6fc; }
+          .tab.active { color:#58a6ff; border-bottom-color:#58a6ff; }
+          .tab-content { flex:1; overflow:auto; }
+          .env-info { padding:12px 16px; font: 500 11px system-ui, sans-serif; color:#8b949e; background:#0d1117; border-bottom:1px solid #21262d; display:flex; align-items:center; gap:16px; }
+          .filters { display:flex; gap:12px; align-items:center; margin-left:auto; }
+          .filters label { display:inline-flex; gap:6px; align-items:center; font: 500 12px system-ui, sans-serif; color:#c9d2e1; cursor:pointer; }
+          .logs-content { overflow:auto; }
+          .entry { display:grid; grid-template-columns:auto 1fr auto; gap:12px; padding:12px 16px; border-bottom:1px solid #21262d; }
+          .entry:hover { background:#161b22; }
+          .entry .lvl { font:700 11px system-ui, sans-serif; text-transform:uppercase; padding:4px 6px; border-radius:4px; }
+          .entry.error .lvl { color:#ffffff; background:#da3633; }
+          .entry.warn .lvl { color:#1f2937; background:#f59e0b; }
+          .entry.info .lvl { color:#ffffff; background:#1f6feb; }
+          .entry .msg { white-space:pre-wrap; word-break:break-word; font: 400 13px system-ui, sans-serif; line-height:1.5; }
+          .entry .meta { color:#8b949e; font: 500 11px "SF Mono", Monaco, monospace; }
+          .page-group-header { padding:12px 16px; font: 600 12px system-ui, sans-serif; color:#58a6ff; border-bottom:1px solid #21262d; background:#0d1117; }
+          @media (prefers-reduced-motion:no-preference) {
+            .panel { transition: all .25s cubic-bezier(0.4, 0, 0.2, 1); transform: translateY(8px) scale(0.95); opacity:0; }
+            .panel.open { transform: translateY(0) scale(1); opacity:1; }
+          }
+        `;
+        shadow.appendChild(style);
+
+        const btnWrap = document.createElement('div');
+        btnWrap.style.position = 'relative';
+        const btn = document.createElement('button');
+        btn.className = 'btn';
+        btn.style.opacity = String(OPACITY);
+        btn.setAttribute('aria-label', 'Hugo Blox Dev HUD');
+        btn.textContent = 'HB';
+        const badge = document.createElement('span');
+        badge.className = 'badge';
+        badge.hidden = true;
+        btnWrap.append(btn, badge);
+
+        const panel = document.createElement('div');
+        panel.className = 'panel';
+        
+        
+        const header = document.createElement('div');
+        header.className = 'panel-header';
+        const title = document.createElement('h2'); 
+        title.textContent = 'Hugo Blox – Dev Tools';
+        const close = document.createElement('button'); 
+        close.className = 'close-btn'; 
+        close.textContent = '×'; 
+        close.title = 'Close';
+        header.append(title, close);
+        
+        
+        const pageInfo = document.createElement('div');
+        pageInfo.className = 'page-info';
+        const pageTitle = document.createElement('h3');
+        pageTitle.textContent = 'Current Page';
+        const pageMeta = document.createElement('div');
+        pageMeta.className = 'page-meta';
+        pageInfo.append(pageTitle, pageMeta);
+        
+        
+        const envInfo = document.createElement('div');
+        envInfo.className = 'env-info';
+        const env = document.createElement('div');
+        env.textContent = '';
+        const filters = document.createElement('div'); 
+        filters.className = 'filters';
+        const chkInfo = document.createElement('input'); 
+        chkInfo.type='checkbox'; 
+        chkInfo.id='hbx-info'; 
+        chkInfo.checked = !!(localStorage.getItem('hbx-show-info')||'');
+        const lblInfo = document.createElement('label'); 
+        lblInfo.htmlFor='hbx-info'; 
+        lblInfo.textContent='Show info';
+        const chkAuto = document.createElement('input');
+        chkAuto.type='checkbox';
+        chkAuto.id='hbx-auto-open';
+        chkAuto.checked = !!(localStorage.getItem('hbx-auto-open')||'');
+        const lblAuto = document.createElement('label');
+        lblAuto.htmlFor='hbx-auto-open';
+        lblAuto.textContent='Auto open';
+        filters.append(lblInfo, chkInfo, lblAuto, chkAuto);
+        envInfo.append(env, filters);
+        
+        
+        const tabs = document.createElement('div');
+        tabs.className = 'tabs';
+        const logsTab = document.createElement('div');
+        logsTab.className = 'tab active';
+        logsTab.textContent = 'Logs';
+        logsTab.dataset.tab = 'logs';
+        tabs.append(logsTab);
+        
+        
+        const tabContent = document.createElement('div');
+        tabContent.className = 'tab-content';
+        const logsContent = document.createElement('div');
+        logsContent.className = 'logs-content';
+        tabContent.append(logsContent);
+        
+        panel.append(header, pageInfo, envInfo, tabs, tabContent);
+
+        shadow.append(btnWrap, panel);
+
+        const attach = () => { if (!document.body.contains(root)) document.body.appendChild(root); };
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', attach);
+        else attach();
+
+        let logs = [];
+        let meta = null;
+        const setLogs = (payload) => { 
+          if (payload) { 
+            logs = Array.isArray(payload.entries) ? payload.entries : []; 
+            meta = payload; 
+          } else { 
+            logs = []; 
+            meta = null; 
+          } 
+        };
+        const shouldShowInfo = () => chkInfo.checked;
+        const createMetaItem = (label, value, className = '') => {
+          const item = document.createElement('div');
+          item.className = 'meta-item';
+          const labelEl = document.createElement('div');
+          labelEl.className = 'meta-label';
+          labelEl.textContent = label;
+          const valueEl = document.createElement('div');
+          valueEl.className = `meta-value ${className}`;
+          valueEl.textContent = value || '(not set)';
+          item.append(labelEl, valueEl);
+          return item;
+        };
+
+        const render = () => {
+          
+          
+          if (meta && meta.hugo) {
+            const hv = meta.hugo.version || '';
+            const gvRaw = meta.hugo.goVersion || '';
+            const gv = gvRaw.replace(/^go/i, '');
+            const tw = meta.modules && meta.modules.bloxTailwind ? meta.modules.bloxTailwind.version : '';
+            env.textContent = `Hugo ${hv} · Go ${gv}${tw ? ` · blox-tailwind ${tw}` : ''}`;
+          }
+
+          
+          pageMeta.replaceChildren();
+          if (meta && meta.currentPage) {
+            const page = meta.currentPage;
+            pageMeta.append(
+              createMetaItem('Type', page.type || 'unknown', 'type'),
+              createMetaItem('Layout', page.layout || '(none)', 'layout'),
+              createMetaItem('Kind', page.kind || 'unknown'),
+              createMetaItem('Section', page.section || '(none)'),
+              createMetaItem('Path', page.path || window.location.pathname),
+              createMetaItem('File', page.file || '(virtual page)'),
+              createMetaItem('Build ID', page.buildId || 'unknown')
+            );
+          } else {
+            
+            pageMeta.append(
+              createMetaItem('Type', 'loading...', 'type'),
+              createMetaItem('Layout', 'loading...', 'layout'),
+              createMetaItem('Kind', 'loading...'),
+              createMetaItem('Section', 'loading...'),
+              createMetaItem('Path', window.location.pathname),
+              createMetaItem('File', 'loading...'),
+              createMetaItem('Build ID', 'loading...')
+            );
+          }
+
+          
+          const visible = logs.filter(e => e.level==='error' || e.level==='warn' || (e.level==='info' && shouldShowInfo()));
+          const errs = visible.filter(e => e.level==='error').length;
+          const warns = visible.filter(e => e.level==='warn').length;
+          const total = errs + warns + (shouldShowInfo()? visible.filter(e=>e.level==='info').length : 0);
+          badge.textContent = String(total);
+          badge.hidden = total === 0;
+          
+          
+          logsTab.textContent = `Logs${total > 0 ? ` (${total})` : ''}`;
+          
+          logsContent.replaceChildren();
+          const groupByPage = new Map();
+          for (const e of visible) {
+            const key = e.page || '/';
+            if (!groupByPage.has(key)) groupByPage.set(key, []);
+            groupByPage.get(key).push(e);
+          }
+          for (const [page, entries] of groupByPage) {
+            const h = document.createElement('div');
+            h.className = 'page-group-header';
+            h.textContent = page;
+            logsContent.appendChild(h);
+            for (const e of entries.sort((a,b)=> (a.level>b.level?-1:1) || (a.timestamp-b.timestamp))) {
+              const row = document.createElement('div');
+              row.className = `entry ${e.level}`;
+              const lvl = document.createElement('div'); 
+              lvl.className='lvl'; 
+              lvl.textContent=e.level;
+              const msg = document.createElement('div'); 
+              msg.className='msg'; 
+              msg.textContent = e.message || '';
+              const metaEl = document.createElement('div'); 
+              metaEl.className='meta'; 
+              metaEl.textContent = new Date(e.timestamp*1000).toLocaleTimeString();
+              row.append(lvl, msg, metaEl);
+              logsContent.appendChild(row);
+            }
+          }
+        };
+
+        const refreshFromWindow = () => { 
+          if (window.__HBX_LOGS__) { 
+            setLogs(window.__HBX_LOGS__); 
+          }
+        };
+        const fetchLogs = async () => {
+          try {
+            const res = await fetch('/hbx-debug.json?cb=' + Date.now());
+            if (res.ok) { const data = await res.json(); setLogs(data); render(); }
+          } catch (e) {   }
+        };
+
+        btn.addEventListener('click', () => { 
+          panel.classList.toggle('open'); 
+          if (panel.classList.contains('open')) { 
+            refreshFromWindow(); 
+            render(); 
+            fetchLogs(); 
+          } 
+        });
+        close.addEventListener('click', () => panel.classList.remove('open'));
+        chkInfo.addEventListener('change', () => { 
+          localStorage.setItem('hbx-show-info', chkInfo.checked ? '1' : ''); 
+          render(); 
+        });
+        chkAuto.addEventListener('change', () => {
+          localStorage.setItem('hbx-auto-open', chkAuto.checked ? '1' : '');
+        });
+
+        
+        refreshFromWindow();
+        render(); 
+
+        
+        if (chkAuto.checked) {
+          panel.classList.add('open');
+          render();
+          fetchLogs();
+        }
+
+        
+        setInterval(() => { refreshFromWindow(); }, 3000);
+      } catch(e) {   }
+    })();
+  </script>
   </body>
 </html>

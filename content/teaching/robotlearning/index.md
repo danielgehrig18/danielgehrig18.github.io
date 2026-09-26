@@ -4,7 +4,6 @@ summary: I gave the Guest Lecture "Learning from Internet Data" for the course "
 type: landing
 
 date: 2025
-type: docs
 math: false
 tags:
   - Robotics

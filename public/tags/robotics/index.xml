@@ -2,75 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robotics | Daniel Gehrig</title>
-    <link>http://localhost:1313/tags/robotics/</link>
-      <atom:link href="http://localhost:1313/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:59833/tags/robotics/</link>
+      <atom:link href="http://localhost:59833/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Robotics</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_huee6a6f00fde9d9e2a94457165780c253_399994_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:59833/media/icon_hu_fb642fd6f4783088.png</url>
       <title>Robotics</title>
-      <link>http://localhost:1313/tags/robotics/</link>
+      <link>http://localhost:59833/tags/robotics/</link>
     </image>
     
     <item>
+      <title>RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild</title>
+      <link>http://localhost:59833/publication/26maoiros/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:59833/publication/26maoiros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Inertial Odometry from Lie Events</title>
+      <link>http://localhost:59833/publication/25jayanthrss/</link>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:59833/publication/25jayanthrss/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;This work extended event-based sampling to IMU-based navigation opening the door to new event-based sensing paradigms!&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Event-based Agile Object Catching with a Quadrupedal Robot</title>
-      <link>http://localhost:1313/publication/forrai23icra/</link>
+      <link>http://localhost:59833/publication/23forraiicra/</link>
       <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/forrai23icra/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Here we explore the advantages of using event cameras to catch high-speed objects at up 15 m/s with the quadrupedal robot ANYmal. Our paper &amp;ldquo;Event-based Agile Object Catching with a Quadrupedal Robot&amp;rdquo; was featured on IEEE Spectrum. Read the article 
-.&lt;/span&gt;
+      <guid>http://localhost:59833/publication/23forraiicra/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;Here we explore the advantages of using event cameras to catch high-speed objects at up 15 m/s with the quadrupedal robot ANYmal. Our paper &amp;ldquo;Event-based Agile Object Catching with a Quadrupedal Robot&amp;rdquo; was featured on IEEE Spectrum. Read the article &lt;a href=&#34;https://spectrum.ieee.org/quadrupedal-robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Exploring Event Camera-based Odometry for Planetary Robots</title>
-      <link>http://localhost:1313/publication/mahlknecht22ral/</link>
+      <link>http://localhost:59833/publication/22mahlknechtral/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/mahlknecht22ral/</guid>
+      <guid>http://localhost:59833/publication/22mahlknechtral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bridging the Gap between Events and Frames through Unsupervised Domain Adaptation</title>
-      <link>http://localhost:1313/publication/messikommer22ral/</link>
+      <link>http://localhost:59833/publication/22messikommerral/</link>
       <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/messikommer22ral/</guid>
+      <guid>http://localhost:59833/publication/22messikommerral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction</title>
-      <link>http://localhost:1313/publication/gehrig21rala/</link>
+      <link>http://localhost:59833/publication/21gehrigrala/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig21rala/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/span&gt;
+      <guid>http://localhost:59833/publication/21gehrigrala/</guid>
+      <description>&lt;div class=&#34;callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500&#34; 
+     data-callout=&#34;note&#34; 
+     data-callout-metadata=&#34;&#34;&gt;
+  &lt;span class=&#34;callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300&#34;&gt;
+    &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+  &lt;div class=&#34;callout-content dark:text-neutral-300&#34;&gt;
+    &lt;div class=&#34;callout-title font-semibold mb-1&#34;&gt;Note&lt;/div&gt;
+    &lt;div class=&#34;callout-body&#34;&gt;The work by Michelle Rüegg that contributed to the paper &amp;ldquo;Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction&amp;rdquo;, presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award!&lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>DSEC: A Stereo Event Camera Dataset for Driving Scenarios</title>
-      <link>http://localhost:1313/publication/gehrig21ralb/</link>
+      <link>http://localhost:59833/publication/21gehrigralb/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/gehrig21ralb/</guid>
+      <guid>http://localhost:59833/publication/21gehrigralb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ESIM: an Open Event Camera Simulator</title>
-      <link>http://localhost:1313/publication/rebecq18corl/</link>
+      <link>http://localhost:59833/publication/18rebecqcorl/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/rebecq18corl/</guid>
+      <guid>http://localhost:59833/publication/18rebecqcorl/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Guest Lecturer at &#34;Real-World Robot Learning&#34;, University of Pennsylvania&#34;</title>
+      <link>http://localhost:59833/teaching/robotlearning/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:45 -0500</pubDate>
+      <guid>http://localhost:59833/teaching/robotlearning/</guid>
+      <description>&lt;p&gt;In 2025 I gave a guest lecture &amp;ldquo;Learning from Internet Data&amp;rdquo; for the course &amp;ldquo;Real-World Robot Learning&amp;rdquo; at The University of Pennsylvania taught by Prof. Antonio Loquercio and Prof. Dinesh Jayaraman.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

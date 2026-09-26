@@ -1,0 +1,45 @@
+# Hugo build output
+public/
+resources/
+
+# Hugo build artifacts
+.hugo_build.lock
+hugo_stats.json
+
+# Hugo-generated asset config
+assets/jsconfig.json
+
+# Pagefind search index (generated into public/ on deploy)
+pagefind/
+
+# Node / npm
+node_modules/
+package.json
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Netlify
+.netlify/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.*

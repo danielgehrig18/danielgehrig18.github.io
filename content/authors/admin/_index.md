@@ -17,12 +17,14 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Postdoctoral Researcher & Incoming Assistant Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: GRASP Lab, University of Pennsylvania
     url: https://www.grasp.upenn.edu/
+  - name: Incoming AP, Mechanical Engineering, NUS (March 2027)
+    url: https://cde.nus.edu.sg/me/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -66,6 +68,14 @@ education:
       GPA: 5.6/6.0
       My bachelor thesis was on the design of humidity filters for breath analysis at the Particle Technology Lab (PTL) under the supervision of Sotiris Pratsinis.
 work:
+  - position: Assistant Professor, Department of Mechanical Engineering
+    company_name: National University of Singapore (NUS)
+    company_url: 'https://cde.nus.edu.sg/me/'
+    company_logo: ''
+    date_start: 2027-03-01
+    date_end: ''
+    summary: |2-
+      Incoming Assistant Professor in the Department of Mechanical Engineering at NUS.
   - position: Postdoctoral Researcher in the GRASP Lab at the University of Pennsylvania
     company_name: GRASP Lab, University of Pennsylvania
     company_url: 'https://www.grasp.upenn.edu/'
@@ -78,7 +88,7 @@ work:
     company_name: F&P Robotics
     company_url: ''
     company_logo: ''
-    date_start: 2015-08-01 
+    date_start: 2015-08-01
     date_end: 2016-01-01
     summary: |
       Intership and part-time job at F&P Personal Robotics as a software developer on artificial intelligence and context management for service robotics.
@@ -120,7 +130,7 @@ skills:
         description: ''
         percent: 80
         icon: language
-        
+
 languages:
   - name: English
     percent: 100
@@ -149,7 +159,7 @@ awards:
     icon: ETH
     summary: |
       I won the Willi Studer Prize for the highest GPA (6.0/6.0) of the year in mechanical engineering.
-      
+
   - title: UZH Annual Award
     url: https://www.ifi.uzh.ch/en/news/faculty-award-daniel-gehrig.html
     date: 2023-04-30
@@ -157,33 +167,33 @@ awards:
     icon: UZH
     summary: |
       For my thesis titled "Efficient, Data-driven Perception with Event Cameras" I won the prestigious UZH Annual Award, which is given for the best Ph.D. within the department of informatics at the University of Zurich.
-      
+
   - title: Best Presentation Award at the ONSVP workshop at ICRA 2021 in Xi'an
     url: https://sites.google.com/view/onsvp-icra-2021-workshop/home
     date: 2021-06-04
     awarder: ONSVP Comittee
     icon: ICRA
-    summary: 
+    summary:
       Our paper on "Event-based Asynchronous Sparse Convolutional Networks" was selected for the best presentation award, in the On- and Near-sensor Vision Processing (ONSVP) workshop, at ICRA 2021 in Xi'an.
-      
+
   - title: NCCR Swiss Robotics Master Award
     url: https://mavt.ethz.ch/news-and-events/d-mavt-news/2022/11/female-robotics-researchers-honored.html
     date: 2022-11-04
     awarder: NCCR Robotics
     icon: NCCR
-    summary: 
+    summary:
       The work by Michelle Rüegg that contributed to the paper "Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction", presented at RA-L 2021 lead to the NCCR Swiss Robotics Master Award
-  
+
   - title: UZH Master Thesis Award
     url: https://rpg.ifi.uzh.ch/awards.html
     date: 2023-04-13
     awarder: UZH
     icon: UZH
-    summary: 
+    summary:
       The work by Asude Aydin that contributed to the paper "A Hybrid ANN-SNN Architecture for Low-Power and Low-Latency Visual Perception"
       at a CVPR Workshop 2024 lead to a UZH Master Thesis Award.
 
 
 ---
 
-I am currently a postdoctoral researcher at the GRASP Lab, University of Pennsylvania, working on the intersection of computer vision, robotics and deep learning with and without event cameras. I am working under the supervision of Prof. Kostas Daniilidis and Prof. Pratik Chaudhari.
+I am a postdoctoral researcher at the GRASP Lab, University of Pennsylvania, working under the supervision of Prof. Kostas Daniilidis. In March 2027, I will be joining the Department of Mechanical Engineering at the National University of Singapore (NUS) as an Assistant Professor.
