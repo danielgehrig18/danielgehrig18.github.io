@@ -14,8 +14,6 @@ pagefind/
 
 # Node / npm
 node_modules/
-package.json
-package-lock.json
 npm-debug.log*
 yarn-error.log*
 
